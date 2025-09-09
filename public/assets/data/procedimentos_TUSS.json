@@ -1,0 +1,30 @@
+[
+  {
+    "codigo": "10101012",
+    "descricao": "Consulta em consultório (no horário normal ou preestabelecido)"
+  },
+  {
+    "codigo": "10101020",
+    "descricao": "Consulta em domicílio"
+  },
+  {
+    "codigo": "10101039",
+    "descricao": "Consulta em pronto socorro"
+  },
+  {
+    "codigo": "10102019",
+    "descricao": "Visita hospitalar (paciente internado)"
+  },
+  {
+    "codigo": "30722012",
+    "descricao": "ARTROSCOPIA DO JOELHO COM MENISCECTOMIA"
+  },
+  {
+    "codigo": "31009115",
+    "descricao": "HERNIORRAFIA INGUINAL - UNILATERAL"
+  },
+  {
+    "codigo": "40314286",
+    "descricao": "PSA total"
+  }
+]

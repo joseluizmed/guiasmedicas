@@ -1,0 +1,47 @@
+
+[
+  { "key": "nomeBeneficiario", "x": 9.02, "y": 54.01, "width": 144.42, "fontSize": 9 },
+  { "key": "nomeProfissionalSolicitante", "x": 9.32, "y": 79.39, "width": 107.44, "fontSize": 9 },
+  { "key": "conselhoProfissional", "x": 119.06, "y": 80.48, "width": 30.15, "fontSize": 9 },
+  { "key": "numeroConselho", "x": 156.75, "y": 80.48, "width": 33.47, "fontSize": 9 },
+  { "key": "ufConselho", "x": 192.93, "y": 80.48, "width": 12.06, "fontSize": 9 },
+  { "key": "nomePrestador", "x": 82.43, "y": 92.94, "width": 133.87, "fontSize": 9 },
+  { "key": "qtdeDiariasSolicitadas", "x": 85.32, "y": 112.98, "width": 38.87, "fontSize": 9 },
+  { "key": "indicacaoClinica", "x": 9.32, "y": 121.84, "width": 221.19, "fontSize": 9 },
+  { "key": "tempoDoencaNumero", "x": 48.51, "y": 141.94, "width": 9.95, "fontSize": 9 },
+  { "key": "diagnosticos.0.codigo", "x": 11.43, "y": 152.83, "width": 25.23, "fontSize": 9 },
+  { "key": "diagnosticos.1.codigo", "x": 40.67, "y": 152.56, "width": 23.49, "fontSize": 9 },
+  { "key": "diagnosticos.2.codigo", "x": 69.62, "y": 152.56, "width": 24.42, "fontSize": 9 },
+  { "key": "diagnosticos.3.codigo", "x": 99.14, "y": 152.56, "width": 23.86, "fontSize": 9 },
+  { "key": "observacaoJustificativa", "x": 8.83, "y": 263.07, "width": 222.39, "fontSize": 9 },
+  { "key": "dataEmissaoGuia", "x": 9.47, "y": 289.78, "width": 38.47, "isDate": true, "fontSize": 9 },
+  { "key": "tipoInternacao", "x": 80, "y": 100.8, "fontSize": 9 },
+  { "key": "tipoDoenca", "x": 30, "y": 141.9, "fontSize": 9 },
+  { "key": "tempoDoencaUnidade", "x": 61.5, "y": 141.9, "fontSize": 9 },
+  {
+    "key": "procedimentos",
+    "isList": true,
+    "maxRows": 5,
+    "startY": 165.38,
+    "rowHeight": 6.1,
+    "fontSize": 9,
+    "columns": [
+      { "key": "codigo", "x": 28.12, "width": 59.4 },
+      { "key": "descricao", "x": 90.42, "width": 105.52 },
+      { "key": "quantidade", "x": 198.83, "width": 9.04 }
+    ]
+  },
+  {
+    "key": "opm",
+    "isList": true,
+    "maxRows": 5,
+    "startY": 206.2,
+    "rowHeight": 6.3,
+    "fontSize": 9,
+    "columns": [
+      { "key": "descricao", "x": 78.22, "width": 59.4 },
+      { "key": "quantidade", "x": 139.75, "width": 9.04 }
+    ]
+  },
+  { "key": "assinaturaMedicoImage", "x": 51.2, "y": 285.0, "width": 39.5, "height": 4.5 }
+]

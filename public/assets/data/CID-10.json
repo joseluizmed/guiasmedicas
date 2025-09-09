@@ -1,0 +1,230 @@
+[
+  {
+    "codigo": "A00.0",
+    "descricao": "Cólera devida a Vibrio cholerae 01, biótipo cholerae"
+  },
+  {
+    "codigo": "A00.1",
+    "descricao": "Cólera devida a Vibrio cholerae 01, biótipo El Tor"
+  },
+  {
+    "codigo": "A00.9",
+    "descricao": "Cólera não especificada"
+  },
+  {
+    "codigo": "A01.0",
+    "descricao": "Febre tifóide"
+  },
+  {
+    "codigo": "A01.1",
+    "descricao": "Febre paratifóide A"
+  },
+  {
+    "codigo": "A01.2",
+    "descricao": "Febre paratifóide B"
+  },
+  {
+    "codigo": "A01.3",
+    "descricao": "Febre paratifóide C"
+  },
+  {
+    "codigo": "A01.4",
+    "descricao": "Febre paratifóide não especificada"
+  },
+  {
+    "codigo": "A02.0",
+    "descricao": "Enterite por salmonela"
+  },
+  {
+    "codigo": "A02.1",
+    "descricao": "Septicemia por salmonela"
+  },
+  {
+    "codigo": "A02.8",
+    "descricao": "Outras infecções especificadas por salmonela"
+  },
+  {
+    "codigo": "A02.9",
+    "descricao": "Infecção não especificada por salmonela"
+  },
+  {
+    "codigo": "A03.0",
+    "descricao": "Shiguelose devida a Shigella dysenteriae"
+  },
+  {
+    "codigo": "A03.1",
+    "descricao": "Shiguelose devida a Shigella flexneri"
+  },
+  {
+    "codigo": "A03.2",
+    "descricao": "Shiguelose devida a Shigella boydii"
+  },
+  {
+    "codigo": "A03.3",
+    "descricao": "Shiguelose devida a Shigella sonnei"
+  },
+  {
+    "codigo": "A03.8",
+    "descricao": "Outras shigueloses"
+  },
+  {
+    "codigo": "A03.9",
+    "descricao": "Shiguelose não especificada"
+  },
+  {
+    "codigo": "A04.0",
+    "descricao": "Infecção por Escherichia coli enteropatogênica"
+  },
+  {
+    "codigo": "A04.1",
+    "descricao": "Infecção por Escherichia coli enterotoxigênica"
+  },
+  {
+    "codigo": "A04.2",
+    "descricao": "Infecção por Escherichia coli enteroinvasiva"
+  },
+  {
+    "codigo": "A04.3",
+    "descricao": "Infecção por Escherichia coli enterohemorrágica"
+  },
+  {
+    "codigo": "A04.4",
+    "descricao": "Outras infecções intestinais por Escherichia coli"
+  },
+  {
+    "codigo": "A04.5",
+    "descricao": "Enterite por Campylobacter"
+  },
+  {
+    "codigo": "A04.6",
+    "descricao": "Enterite devida a Yersinia enterocolítica"
+  },
+  {
+    "codigo": "A04.7",
+    "descricao": "Enterocolite devida a Clostridium difficile"
+  },
+  {
+    "codigo": "A04.8",
+    "descricao": "Outras infecções bacterianas intestinais especificadas"
+  },
+  {
+    "codigo": "A04.9",
+    "descricao": "Infecção intestinal bacteriana não especificada"
+  },
+  {
+    "codigo": "A05.0",
+    "descricao": "Intoxicação alimentar estafilocócica"
+  },
+  {
+    "codigo": "A05.1",
+    "descricao": "Botulismo"
+  },
+  {
+    "codigo": "A05.2",
+    "descricao": "Intoxicação alimentar devida a Clostridium perfringens"
+  },
+  {
+    "codigo": "A05.3",
+    "descricao": "Intoxicação alimentar devida a Vibrio parahemolyticus"
+  },
+  {
+    "codigo": "A05.4",
+    "descricao": "Intoxicação alimentar devida a Bacillus cereus"
+  },
+  {
+    "codigo": "A05.8",
+    "descricao": "Outras intoxicações alimentares bacterianas especificadas"
+  },
+  {
+    "codigo": "A05.9",
+    "descricao": "Intoxicação alimentar bacteriana não especificada"
+  },
+  {
+    "codigo": "A06.0",
+    "descricao": "Disenteria amebiana aguda"
+  },
+  {
+    "codigo": "A06.1",
+    "descricao": "Amebíase intestinal crônica"
+  },
+  {
+    "codigo": "A06.2",
+    "descricao": "Colite amebiana não-disentérica"
+  },
+  {
+    "codigo": "A06.3",
+    "descricao": "Ameboma intestinal"
+  },
+  {
+    "codigo": "A06.4",
+    "descricao": "Abscesso amebiano do fígado"
+  },
+  {
+    "codigo": "A06.7",
+    "descricao": "Amebíase cutânea"
+  },
+  {
+    "codigo": "A06.8",
+    "descricao": "Infecção amebiana de outras localizações"
+  },
+  {
+    "codigo": "A06.9",
+    "descricao": "Amebíase não especificada"
+  },
+  {
+    "codigo": "A07.0",
+    "descricao": "Balantidíase"
+  },
+  {
+    "codigo": "A07.1",
+    "descricao": "Giardíase [lamblíase]"
+  },
+  {
+    "codigo": "A07.2",
+    "descricao": "Criptosporidiose"
+  },
+  {
+    "codigo": "A07.3",
+    "descricao": "Isosporíase"
+  },
+  {
+    "codigo": "A07.8",
+    "descricao": "Outras doenças intestinais especificadas por protozoários"
+  },
+  {
+    "codigo": "A07.9",
+    "descricao": "Doença intestinal não especificada por protozoários"
+  },
+  {
+    "codigo": "A08.0",
+    "descricao": "Enterite por rotavírus"
+  },
+  {
+    "codigo": "A08.1",
+    "descricao": "Gastroenteropatia aguda pelo agente de Norwalk"
+  },
+  {
+    "codigo": "A08.2",
+    "descricao": "Enterite por adenovírus"
+  },
+  {
+    "codigo": "A08.3",
+    "descricao": "Outras enterites virais"
+  },
+  {
+    "codigo": "A08.4",
+    "descricao": "Infecção intestinal devida a vírus não especificado"
+  },
+  {
+    "codigo": "A08.5",
+    "descricao": "Outras infecções intestinais especificadas"
+  },
+  {
+    "codigo": "A09",
+    "descricao": "Diarréia e gastroenterite de origem infecciosa presumível"
+  },
+  {
+    "codigo": "A15.0",
+    "descricao": "Tuberculose pulmonar, com confirmação por exame microscópico da expectoração com ou sem cultura"
+  }
+]

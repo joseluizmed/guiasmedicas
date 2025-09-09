@@ -1,0 +1,8 @@
+[
+  { "id": "1", "nome": "Casa de Saúde São Lucas" },
+  { "id": "2", "nome": "CSU - Unimed" },
+  { "id": "3", "nome": "Hospital do Coração" },
+  { "id": "4", "nome": "Hospital Promater" },
+  { "id": "5", "nome": "Hospital Rio Grande" },
+  { "id": "6", "nome": "Policlínica" }
+]

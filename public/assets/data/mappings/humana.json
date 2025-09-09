@@ -1,0 +1,46 @@
+
+[
+  { "key": "nomeBeneficiario", "x": 56.55, "y": 37.83, "width": 126.74, "fontSize": 9 },
+  { "key": "nomeProfissionalSolicitante", "x": 2.91, "y": 67.73, "width": 94.27, "fontSize": 9 },
+  { "key": "conselhoProfissional", "x": 99.21, "y": 68.79, "fontSize": 9 },
+  { "key": "numeroConselho", "x": 132.29, "y": 68.79, "fontSize": 9 },
+  { "key": "ufConselho", "x": 164.04, "y": 68.79, "fontSize": 9 },
+  { "key": "nomePrestador", "x": 66.94, "y": 80.96, "width": 117.47, "fontSize": 9 },
+  { "key": "tipoInternacao", "x": 50.57, "y": 88.63, "fontSize": 9 },
+  { "key": "qtdeDiariasSolicitadas", "x": 69.5, "y": 100.39, "width": 34.11, "fontSize": 9 },
+  { "key": "indicacaoClinica", "x": 2.91, "y": 108.99, "width": 194.08, "fontSize": 9 },
+  { "key": "tipoDoenca", "x": 3.96, "y": 128.58, "fontSize": 9 },
+  { "key": "tempoDoencaNumero", "x": 37.3, "y": 128.58, "fontSize": 9 },
+  { "key": "tempoDoencaUnidade", "x": 48.68, "y": 128.58, "fontSize": 9 },
+  { "key": "diagnosticos.0.codigo", "x": 4.76, "y": 139.16, "fontSize": 9 },
+  { "key": "diagnosticos.1.codigo", "x": 30.43, "y": 138.9, "fontSize": 9 },
+  { "key": "diagnosticos.2.codigo", "x": 55.82, "y": 138.9, "fontSize": 9 },
+  { "key": "diagnosticos.3.codigo", "x": 81.75, "y": 138.9, "fontSize": 9 },
+  {
+    "key": "procedimentos",
+    "isList": true,
+    "maxRows": 5,
+    "startY": 151.36,
+    "rowHeight": 6.35,
+    "fontSize": 9,
+    "columns": [
+      { "key": "codigo", "x": 19.41, "width": 52.12 },
+      { "key": "descricao", "x": 74.08, "width": 92.6 },
+      { "key": "quantidade", "x": 169.69, "width": 7.94 }
+    ]
+  },
+  {
+    "key": "opm",
+    "isList": true,
+    "maxRows": 5,
+    "startY": 191.24,
+    "rowHeight": 6.09,
+    "fontSize": 9,
+    "columns": [
+      { "key": "descricao", "x": 63.34, "width": 52.12 },
+      { "key": "quantidade", "x": 117.42, "width": 7.94 }
+    ]
+  },
+  { "key": "observacaoJustificativa", "x": 2.48, "y": 246.16, "width": 195.13, "fontSize": 9 },
+  { "key": "dataSolicitacao", "x": 3.04, "y": 272.13, "isDate": true, "fontSize": 9 }
+]

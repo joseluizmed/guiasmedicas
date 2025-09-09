@@ -1,0 +1,30 @@
+[
+    {
+        "codigo": "1.01.01.01-2",
+        "descricao": "Em consultório (no horário normal ou preestabelecido)"
+    },
+    {
+        "codigo": "1.01.01.02-0",
+        "descricao": "Em domicílio"
+    },
+    {
+        "codigo": "1.01.01.03-9",
+        "descricao": "Em pronto socorro"
+    },
+    {
+        "codigo": "2.01.01.01-5",
+        "descricao": "Acompanhamento clínico ambulatorial pós-transplante renal"
+    },
+    {
+        "codigo": "3.07.22.88-8",
+        "descricao": "Tratamento da pseudoartrose do escafoide com transplante ósseo vascularizado"
+    },
+    {
+        "codigo": "3.09.06.19-9",
+        "descricao": "Endarterectomia carotídea"
+    },
+    {
+        "codigo": "4.03.16.51-3",
+        "descricao": "Testosterona total, dosagem"
+    }
+]

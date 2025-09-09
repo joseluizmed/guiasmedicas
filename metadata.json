@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Gerador de Guias Médicas - 09.09.2025 - Erro em excluir histórcio e gravar favorito",
+  "description": "Uma aplicação para preencher e gerar guias médicas de planos de saúde de forma fácil e rápida, com persistência de dados local e geração de PDF.",
+  "requestFramePermissions": []
+}

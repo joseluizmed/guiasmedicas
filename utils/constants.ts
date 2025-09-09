@@ -1,0 +1,56 @@
+import { Option } from '../types';
+
+export const healthPlans: Option[] = [
+  { value: 'Amil', label: 'Amil' },
+  { value: 'Unimed', label: 'Unimed' },
+  { value: 'Bradesco', label: 'Bradesco Saúde' },
+  { value: 'Humana', label: 'Humana Saúde' },
+  { value: 'Petrobras', label: 'Petrobrás' },
+  { value: 'saudecaixa', label: 'Saúde Caixa' },
+  { value: 'SulAmerica', label: 'Sul América' },
+  { value: 'Geap', label: 'GEAP' },
+];
+
+export const professionalCouncils: Option[] = [
+  { value: 'CRM', label: 'CRM' },
+  { value: 'CRO', label: 'CRO' },
+  { value: 'COREN', label: 'COREN' },
+  { value: 'CRF', label: 'CRF' },
+  { value: 'CREFITO', label: 'CREFITO' },
+  { value: 'CRN', label: 'CRN' },
+  { value: 'CRP', label: 'CRP' },
+  { value: 'CRESS', label: 'CRESS' },
+  { value: 'CRMV', label: 'CRMV' },
+  { value: 'CREA', label: 'CREA' },
+  { value: 'OUTRO', label: 'OUTRO' },
+];
+
+export const brazilianStates: Option[] = [
+    { value: "AC", label: "Acre" },
+    { value: "AL", label: "Alagoas" },
+    { value: "AP", label: "Amapá" },
+    { value: "AM", label: "Amazonas" },
+    { value: "BA", label: "Bahia" },
+    { value: "CE", label: "Ceará" },
+    { value: "DF", label: "Distrito Federal" },
+    { value: "ES", label: "Espírito Santo" },
+    { value: "GO", label: "Goiás" },
+    { value: "MA", label: "Maranhão" },
+    { value: "MT", label: "Mato Grosso" },
+    { value: "MS", label: "Mato Grosso do Sul" },
+    { value: "MG", label: "Minas Gerais" },
+    { value: "PA", label: "Pará" },
+    { value: "PB", label: "Paraíba" },
+    { value: "PR", label: "Paraná" },
+    { value: "PE", label: "Pernambuco" },
+    { value: "PI", label: "Piauí" },
+    { value: "RJ", label: "Rio de Janeiro" },
+    { value: "RN", label: "Rio Grande do Norte" },
+    { value: "RS", label: "Rio Grande do Sul" },
+    { value: "RO", label: "Rondônia" },
+    { value: "RR", label: "Roraima" },
+    { value: "SC", label: "Santa Catarina" },
+    { value: "SP", label: "São Paulo" },
+    { value: "SE", label: "Sergipe" },
+    { value: "TO", label: "Tocantins" },
+];
