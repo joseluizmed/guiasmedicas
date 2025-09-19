@@ -704,7 +704,7 @@ const DetailedForm: React.FC<DetailedFormProps> = ({
             <FileInput label="Assinatura do Médico (PNG/JPG)" name="assinaturaMedicoImage" value={formData.assinaturaMedicoImage} onChange={handleFileChange} />
           </Section>
 
-          <div className="mt-8 p-4 bg-white shadow-md rounded-lg sticky bottom-4">
+          <div className="mt-8 p-4 bg-white shadow-md rounded-lg">
             <div className="flex justify-end items-center gap-4">
               <button type="button" onClick={handleSaveAsFavorite} className="px-4 py-2 bg-accent text-primary font-bold rounded-lg shadow-md hover:bg-yellow-500 transition-colors flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
