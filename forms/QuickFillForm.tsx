@@ -5,6 +5,7 @@ import { solicitanteSearchFilter, prestadorSearchFilter, quickFillProcedureSearc
 import Section from '../components/Section';
 import TextInput from '../components/form/TextInput';
 import AutocompleteInput from '../components/form/AutocompleteInput';
+import { generatePdfForPlan } from '../utils/pdfService';
 
 interface QuickFillFormProps {
   formData: GenericFormData;
@@ -15,9 +16,11 @@ interface QuickFillFormProps {
   setToast: (toast: { message: string; type: 'success' | 'error' } | null) => void;
   onFillModeChange: (mode: 'detailed' | 'quick') => void;
   onGenerateAndSavePdf: (outputAction: PdfOutputAction) => void;
+  onSaveFavorite: () => void;
+  selectedPlan: string;
 }
 
-const QuickFillForm: React.FC<QuickFillFormProps> = ({ formData, setFormData, solicitantesData, prestadoresData, quickFillProcedures, setToast, onFillModeChange, onGenerateAndSavePdf }) => {
+const QuickFillForm: React.FC<QuickFillFormProps> = ({ formData, setFormData, solicitantesData, prestadoresData, quickFillProcedures, setToast, onFillModeChange, onGenerateAndSavePdf, onSaveFavorite, selectedPlan }) => {
   const formRef = useRef<HTMLFormElement>(null);
 
   const validateAndScroll = useCallback((): boolean => {
@@ -87,6 +90,16 @@ const QuickFillForm: React.FC<QuickFillFormProps> = ({ formData, setFormData, so
     if (!validateAndScroll()) return;
     onGenerateAndSavePdf(outputAction);
   };
+  
+  const handlePrint = () => {
+    if (!validateAndScroll()) return;
+    onGenerateAndSavePdf('print');
+  };
+
+  const handleSaveAsFavorite = () => {
+    if (!validateAndScroll()) return;
+    onSaveFavorite();
+  };
 
   const solicitanteDisplayFn = (item: SolicitanteData) => item.nomeProfissionalSolicitante;
   const prestadorDisplayFn = (item: PrestadorData) => item.nome;
@@ -141,27 +154,36 @@ const QuickFillForm: React.FC<QuickFillFormProps> = ({ formData, setFormData, so
             required
             className="col-span-full"
         />
-         <div className="col-span-full">
+         <div className="col-span-full pt-4 border-t border-gray-200 mt-4">
             <button
               type="button"
               onClick={() => onFillModeChange('detailed')}
-              className="text-sm text-secondary hover:underline"
+              className="w-full flex items-center justify-center gap-3 px-4 py-3 bg-light border-2 border-dashed border-secondary text-secondary rounded-lg font-semibold hover:bg-blue-100 hover:border-solid transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
             >
-              Precisa de mais detalhes? Mude para o Preenchimento Detalhado.
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
+              </svg>
+              <span>Precisa de mais detalhes? Clique para mudar para o Preenchimento Detalhado.</span>
             </button>
         </div>
       </Section>
 
       <div className="mt-8 p-4 bg-white shadow-md rounded-lg sticky bottom-4">
         <div className="flex justify-end items-center gap-4">
-          <div className="flex items-center gap-2">
+          <button type="button" onClick={handleSaveAsFavorite} className="px-4 py-2 bg-accent text-primary font-bold rounded-lg shadow-md hover:bg-yellow-500 transition-colors flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            Salvar Favorito
+          </button>
+          <div className="flex items-center gap-2 border-l-2 pl-4 ml-2">
             <button type="button" onClick={() => handleGeneratePdf('view')} title="Ver Guia" className="p-3 bg-gray-500 text-white rounded-lg shadow-md hover:bg-gray-600 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z" /><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.27 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" /></svg>
             </button>
             <button type="button" onClick={() => handleGeneratePdf('download')} title="Salvar PDF" className="p-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
             </button>
-            <button type="button" onClick={() => handleGeneratePdf('print')} className="px-6 py-3 bg-green-600 text-white font-bold rounded-lg shadow-lg hover:bg-green-700 transition-colors flex items-center">
+            <button type="button" onClick={handlePrint} className="px-6 py-3 bg-green-600 text-white font-bold rounded-lg shadow-lg hover:bg-green-700 transition-colors flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v6a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z" clipRule="evenodd" /></svg>
               Imprimir Guia
             </button>

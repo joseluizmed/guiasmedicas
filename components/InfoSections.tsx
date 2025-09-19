@@ -117,13 +117,15 @@ const InfoSections: React.FC<InfoSectionsProps> = ({ startExpanded }) => {
                 <h4 className="font-bold text-md text-secondary mt-4">Funções dos Botões</h4>
                 <div className="space-y-4 not-prose">
                      <div className="flex items-center gap-4 p-2 rounded-md bg-gray-50">
-                        <div className="px-4 py-2 bg-blue-600 text-white font-bold rounded-lg shadow-md flex items-center text-sm flex-shrink-0">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
-                            <span>Exportar Guia</span>
+                        <div className="px-4 py-2 bg-accent text-primary font-bold rounded-lg shadow-md flex items-center text-sm flex-shrink-0">
+                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                           </svg>
+                           <span>Salvar Favorito</span>
                         </div>
-                        <p className="text-sm text-gray-800"><strong>Exportar Guia:</strong> Salva os dados da guia (procedimentos, CID, etc.) em um arquivo JSON no seu computador. Este arquivo pode ser usado para criar novos modelos de preenchimento rápido.</p>
-                    </div>
-                    <div className="flex items-center gap-4 p-2 rounded-md bg-gray-50">
+                        <p className="text-sm text-gray-800"><strong>Salvar Favorito:</strong> Salva a guia atual com os dados preenchidos em uma lista interna. Você pode acessar, carregar ou editar guias salvas através do botão "Favoritos" no cabeçalho. É ideal para guias que você usa com frequência.</p>
+                     </div>
+                     <div className="flex items-center gap-4 p-2 rounded-md bg-gray-50">
                         <div title="Ver Guia" className="p-3 bg-gray-500 text-white rounded-lg shadow-md flex-shrink-0">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
@@ -154,6 +156,13 @@ const InfoSections: React.FC<InfoSectionsProps> = ({ startExpanded }) => {
                         <p className="text-sm text-gray-800">
                             <strong>Imprimir Guia:</strong> Abre a guia em PDF em uma nova aba e aciona a caixa de diálogo de impressão do seu navegador.
                         </p>
+                    </div>
+                    <div className="flex items-center gap-4 p-2 rounded-md bg-gray-50">
+                        <div className="px-4 py-2 bg-blue-600 text-white font-bold rounded-lg shadow-md flex items-center text-sm flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                            <span>Exportar Guia</span>
+                        </div>
+                        <p className="text-sm text-gray-800"><strong>Exportar Guia (Avançado):</strong> Salva os dados da guia (procedimentos, CID, etc.) em um arquivo JSON no seu computador. Este arquivo pode ser usado por desenvolvedores para criar novos modelos de preenchimento rápido.</p>
                     </div>
                 </div>
             </InfoSectionItem>

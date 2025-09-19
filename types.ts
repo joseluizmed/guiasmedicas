@@ -58,7 +58,7 @@ export interface GenericFormData {
   caraterAtendimento: 'E' | 'U' | ''; // Renomeado de caraterInternacao
   tipoInternacao: '1' | '2' | '3' | '4' | '5' | '';
   regimeInternacao: '1' | '2' | '3' | ''; // Hospitalar, Hospital-dia, Domiciliar
-  qtdeDiariasSolicitadas: number;
+  qtdeDiariasSolicitadas: number | string;
   previsaoUsoOPME: 'S' | 'N' | '';
   previsaoUsoQuimio: 'S' | 'N' | '';
   indicacaoClinica: string;
@@ -95,46 +95,6 @@ export interface GenericFormData {
   assinaturaResponsavelImage: string; // Base64
   dataAssinaturaResponsavelAutorizacao: string;
 }
-
-export interface MappingColumn {
-  key: string;
-  x: number;
-  width?: number;
-  align?: 'left' | 'center' | 'right';
-  isCharField?: boolean;
-  charWidth?: number;
-  boxWidth?: number;
-  limit?: number;
-}
-
-export interface MappingItem {
-  key: keyof GenericFormData | string;
-  x: number;
-  y: number;
-  fontSize?: number;
-  fontName?: 'helvetica' | 'times' | 'courier';
-  fontStyle?: 'normal' | 'bold' | 'italic' | 'bolditalic';
-  width?: number; // for text wrapping
-  // FIX: Added optional 'height' property to support image dimensions in PDF generation, which resolves a type error in utils/pdfGenerators.ts.
-  height?: number;
-  align?: 'left' | 'center' | 'right';
-  isList?: boolean;
-  maxRows?: number;
-  startY?: number;
-  rowHeight?: number;
-  columns?: MappingColumn[];
-  isCharField?: boolean;
-  charWidth?: number;
-  boxWidth?: number;
-  limit?: number;
-  isDate?: boolean;
-  isConditional?: boolean;
-  conditionValue?: string;
-  text?: string;
-  options?: { [key: string]: { x: number; y: number } };
-}
-
-export type Mapping = MappingItem[];
 
 export interface Option {
   value: string;
@@ -186,4 +146,53 @@ export interface FavoriteGuideEntry {
   planName: string;
   patientName: string;
   formData: GenericFormData;
+}
+
+export interface FieldMetadata {
+    key: string;
+    pageIndex: number;
+    x: number;
+    y: number;
+    label: string;
+    width: number;
+    height: number;
+    fieldNumber: string;
+    multiline?: boolean;
+    font?: string;
+    fontSize?: number;
+    align?: 'left' | 'center' | 'right';
+}
+
+export interface FavoriteProcedure {
+  id: string;
+  tabela: string;
+  codigo: string;
+  descricao: string;
+}
+
+export interface FavoriteDiagnosis {
+  id: string;
+  codigo: string;
+  descricao: string;
+}
+
+export interface OpmKitItem {
+  descricao: string;
+  quantidade: number;
+}
+
+export interface OpmKit {
+  procedimentoCodigo: string;
+  procedimentoDescricao: string;
+  opm: OpmKitItem[];
+}
+
+export interface OpmSupplier {
+  fornecedor: string;
+  kits: OpmKit[];
+}
+
+export interface NavSection {
+  key: string;
+  label: string;
 }

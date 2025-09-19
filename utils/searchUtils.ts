@@ -1,5 +1,4 @@
-
-import { CidData, ProcedimentoData, SolicitanteData, PrestadorData, QuickFillProcedureData } from '../types';
+import { CidData, ProcedimentoData, SolicitanteData, PrestadorData, QuickFillProcedureData, FavoriteProcedure, FavoriteDiagnosis } from '../types';
 
 /**
  * Normalizes a string by converting to lowercase and removing accents/diacritics.
@@ -109,4 +108,32 @@ export const quickFillProcedureSearchFilter = (
   const normalizedQuery = normalizeString(query);
   const normalizedName = normalizeString(item.nomeComum);
   return normalizedName.includes(normalizedQuery);
+};
+
+export const favoriteProcedureSearchFilter = (
+  item: FavoriteProcedure,
+  query: string
+): boolean => {
+  if (!query) return false;
+  const normalizedQuery = normalizeString(query);
+
+  const normalizedDesc = normalizeString(item.descricao);
+  const normalizedCode = normalizeString(item.codigo);
+
+  // Check if the code or description includes the query
+  return normalizedCode.includes(normalizedQuery) || normalizedDesc.includes(normalizedQuery);
+};
+
+export const favoriteDiagnosisSearchFilter = (
+  item: FavoriteDiagnosis,
+  query: string
+): boolean => {
+  if (!query) return false;
+  const normalizedQuery = normalizeString(query);
+
+  const normalizedDesc = normalizeString(item.descricao);
+  const normalizedCode = normalizeString(item.codigo);
+
+  // Check if the code or description includes the query
+  return normalizedCode.includes(normalizedQuery) || normalizedDesc.includes(normalizedQuery);
 };

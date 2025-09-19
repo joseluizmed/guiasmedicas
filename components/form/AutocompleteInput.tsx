@@ -7,6 +7,7 @@ interface AutocompleteInputProps<T> {
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onSelect: (item: T) => void;
+  onDeleteItem?: (item: T) => void;
   data: T[];
   filterFn: (item: T, query: string) => boolean;
   displayFn: (item: T) => string;
@@ -20,6 +21,7 @@ function AutocompleteInput<T,>({
   value,
   onChange,
   onSelect,
+  onDeleteItem,
   data,
   filterFn,
   displayFn,
@@ -44,6 +46,7 @@ function AutocompleteInput<T,>({
 
   const handleSelect = (item: T) => {
     onSelect(item);
+    setSuggestions([]);
     setShowSuggestions(false);
   };
   
@@ -59,6 +62,19 @@ function AutocompleteInput<T,>({
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [handleClickOutside]);
+
+  const handleDelete = (item: T) => {
+    if (onDeleteItem) {
+      onDeleteItem(item);
+      // Refilter suggestions after deletion
+      const query = value;
+      if (query.length > 0) {
+        // We need to get the updated data, which we don't have here.
+        // A simple solution is to just hide the suggestions. The user can re-type to see the updated list.
+        setShowSuggestions(false);
+      }
+    }
+  }
 
 
   return (
@@ -81,10 +97,27 @@ function AutocompleteInput<T,>({
           {suggestions.map((item, index) => (
             <li
               key={index}
-              onClick={() => handleSelect(item)}
-              className="px-4 py-2 cursor-pointer hover:bg-secondary hover:text-white"
+              className="px-4 py-2 flex justify-between items-center cursor-pointer hover:bg-secondary hover:text-white group"
             >
-              {displayFn(item)}
+              <span onClick={() => handleSelect(item)} className="flex-grow">
+                  {displayFn(item)}
+              </span>
+              {onDeleteItem && (
+                  <button
+                      type="button"
+                      onClick={(e) => {
+                          e.stopPropagation();
+                          handleDelete(item);
+                      }}
+                      className="ml-2 p-1 rounded-full text-gray-400 group-hover:text-white hover:bg-red-500 opacity-0 group-hover:opacity-100 transition-opacity"
+                      aria-label="Remover favorito"
+                      title="Remover favorito"
+                  >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                      </svg>
+                  </button>
+              )}
             </li>
           ))}
         </ul>

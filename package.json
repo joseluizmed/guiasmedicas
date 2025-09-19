@@ -1,5 +1,5 @@
 {
-  "name": "copy-of-gerador-de-guias-médicas---09.09.2025---erro-em-excluir-histórcio-e-gravar-favorito",
+  "name": "gerador-de-guias-médicas---17.09.2025---com-barra-de-navegação-lateral",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,12 +11,14 @@
   "dependencies": {
     "react-dom": "^19.1.1",
     "uuid": "^11.1.0",
-    "jspdf": "^3.0.2",
+    "pdf-lib": "^1.17.1",
     "react": "^19.1.1",
-    "localforage": "^1.10.0"
+    "localforage": "^1.10.0",
+    "pdfjs-dist": "^4.6.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

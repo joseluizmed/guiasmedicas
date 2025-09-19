@@ -1,0 +1,44 @@
+[
+  {
+    "fornecedor": "Natal Sutura",
+    "kits": [
+      {
+        "procedimentoCodigo": "31009115",
+        "procedimentoDescricao": "HERNIORRAFIA INGUINAL - UNILATERAL",
+        "opm": [
+          {
+            "descricao": "TELA DE MARLEX",
+            "quantidade": 1
+          },
+          {
+            "descricao": "FIO MONOCRYL 3-0 C/ AGULHA",
+            "quantidade": 1
+          },
+          {
+            "descricao": "FIO PROLENE 2-0 C/ AGULHA",
+            "quantidade": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "fornecedor": "Fornecedor Exemplo",
+    "kits": [
+       {
+        "procedimentoCodigo": "30722012",
+        "procedimentoDescricao": "ARTROSCOPIA DO JOELHO COM MENISCECTOMIA",
+        "opm": [
+          {
+            "descricao": "Lâmina de Shaver 4.0mm",
+            "quantidade": 1
+          },
+          {
+            "descricao": "Ponteira de Radiofrequência",
+            "quantidade": 1
+          }
+        ]
+      }
+    ]
+  }
+]
