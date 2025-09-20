@@ -1,30 +1,4818 @@
 [
   {
     "codigo": "10101012",
-    "descricao": "Consulta em consultório (no horário normal ou preestabelecido)"
+    "descricao": "Em consultório (no horário normal ou preestabelecido)"
   },
   {
     "codigo": "10101020",
-    "descricao": "Consulta em domicílio"
+    "descricao": "Em domicílio"
   },
   {
     "codigo": "10101039",
-    "descricao": "Consulta em pronto socorro"
+    "descricao": "Em pronto socorro"
   },
   {
     "codigo": "10102019",
-    "descricao": "Visita hospitalar (paciente internado)"
+    "descricao": "Visita hospitalar a paciente internado"
   },
   {
-    "codigo": "30722012",
-    "descricao": "ARTROSCOPIA DO JOELHO COM MENISCECTOMIA"
+    "codigo": "10102027",
+    "descricao": "Visita ou consulta hospitalar do médico assistente"
   },
   {
-    "codigo": "31009115",
-    "descricao": "HERNIORRAFIA INGUINAL - UNILATERAL"
+    "codigo": "10103015",
+    "descricao": "Atendimento ao recém-nascido em berçário"
   },
   {
-    "codigo": "40314286",
-    "descricao": "PSA total"
+    "codigo": "10104011",
+    "descricao": "Atendimento do intensivista diarista (rotina)"
+  },
+  {
+    "codigo": "10104020",
+    "descricao": "Atendimento médico do paciente internado sob regime de hospital-dia"
+  },
+  {
+    "codigo": "10104038",
+    "descricao": "Atendimento no berçário"
+  },
+  {
+    "codigo": "10104046",
+    "descricao": "Acompanhamento clínico de internação hospitalar de paciente psiquiátrico"
+  },
+  {
+    "codigo": "10105018",
+    "descricao": "Acompanhamento de paciente em assistência / internação domiciliar (por dia)"
+  },
+  {
+    "codigo": "10106014",
+    "descricao": "Acompanhamento de paciente em transporte especializado"
+  },
+  {
+    "codigo": "10106022",
+    "descricao": "Atendimento a chamado noturno, feriado e fim de semana"
+  },
+  {
+    "codigo": "10106030",
+    "descricao": "Junta médica (até 3 membros) - Parecer"
+  },
+  {
+    "codigo": "20101014",
+    "descricao": "Avaliação clínica da disfagia por fonoaudiólogo"
+  },
+  {
+    "codigo": "20101022",
+    "descricao": "Acompanhamento clínico pós-transplante imediato (primeiros 30 dias) - por dia"
+  },
+  {
+    "codigo": "20101030",
+    "descricao": "Acompanhamento clínico de transplante tardio (após 30 dias) - por ano"
+  },
+  {
+    "codigo": "20101049",
+    "descricao": "Reabilitação clínica do paciente coronariopata em regime ambulatorial supervisionado - sessão"
+  },
+  {
+    "codigo": "20101057",
+    "descricao": "Avaliação da função muscular por fisioterapeuta"
+  },
+  {
+    "codigo": "20101065",
+    "descricao": "Avaliação e acompanhamento nutricional ambulatorial do paciente transplantado"
+  },
+  {
+    "codigo": "20101073",
+    "descricao": "Avaliação e acompanhamento psicológico ambulatorial do paciente transplantado"
+  },
+  {
+    "codigo": "20101081",
+    "descricao": "Avaliação e acompanhamento social ambulatorial do paciente transplantado"
+  },
+  {
+    "codigo": "20101090",
+    "descricao": "Avaliação e acompanhamento de enfermagem ambulatorial do paciente transplantado"
+  },
+  {
+    "codigo": "20102010",
+    "descricao": "Monitorização ambulatorial da pressão arterial - Mapa (24 horas)"
+  },
+  {
+    "codigo": "20102029",
+    "descricao": "Holter de 24 horas - 2 ou mais canais - análise e laudo"
+  },
+  {
+    "codigo": "20102037",
+    "descricao": "Holter de 24 horas - 3 canais - análise e laudo"
+  },
+  {
+    "codigo": "20102045",
+    "descricao": "Eletrocardiograma de alta resolução"
+  },
+  {
+    "codigo": "20102053",
+    "descricao": "Eletrocardiograma de 12 derivações convencional"
+  },
+  {
+    "codigo": "20102061",
+    "descricao": "Tilt test"
+  },
+  {
+    "codigo": "20102070",
+    "descricao": "Monitorização de eventos (loop recorder) com análise"
+  },
+  {
+    "codigo": "20103013",
+    "descricao": "Fisioterapia em consultório (por sessão)"
+  },
+  {
+    "codigo": "20103021",
+    "descricao": "Fisioterapia em domicílio (por sessão)"
+  },
+  {
+    "codigo": "20103030",
+    "descricao": "Fonoaudiologia (por sessão)"
+  },
+  {
+    "codigo": "20103048",
+    "descricao": "Psicoterapia de casal (por sessão)"
+  },
+  {
+    "codigo": "20103056",
+    "descricao": "Psicoterapia de família (por sessão)"
+  },
+  {
+    "codigo": "20103064",
+    "descricao": "Psicoterapia individual (por sessão)"
+  },
+  {
+    "codigo": "20103072",
+    "descricao": "Psicoterapia de grupo (por sessão)"
+  },
+  {
+    "codigo": "20103080",
+    "descricao": "Avaliação e acompanhamento psicológico (por sessão)"
+  },
+  {
+    "codigo": "20103099",
+    "descricao": "Sessão de psicomotricidade"
+  },
+  {
+    "codigo": "20103102",
+    "descricao": "Sessão de terapia ocupacional"
+  },
+  {
+    "codigo": "20103110",
+    "descricao": "Atendimento domiciliar por equipe de saúde - por dia"
+  },
+  {
+    "codigo": "20104010",
+    "descricao": "Sessão de quimioterapia"
+  },
+  {
+    "codigo": "20104028",
+    "descricao": "Sessão de oxigenoterapia hiperbárica"
+  },
+  {
+    "codigo": "20104036",
+    "descricao": "Sessão de fototerapia com puva"
+  },
+  {
+    "codigo": "20104044",
+    "descricao": "Sessão de fototerapia ultravioleta B"
+  },
+  {
+    "codigo": "20104052",
+    "descricao": "Sessão de eletroconvulsoterapia (inclui o médico psiquiatra)"
+  },
+  {
+    "codigo": "20104060",
+    "descricao": "Sessão de diálise peritoneal (por sessão)"
+  },
+  {
+    "codigo": "20104079",
+    "descricao": "Sessão de hemodiálise (por sessão)"
+  },
+  {
+    "codigo": "20104087",
+    "descricao": "Sessão de hemodiafiltração"
+  },
+  {
+    "codigo": "20104095",
+    "descricao": "Sessão de hemodiálise em paciente infectado pelo vírus B ou C da hepatite (por sessão)"
+  },
+  {
+    "codigo": "20104109",
+    "descricao": "Sessão de hemodiálise em paciente HIV positivo (por sessão)"
+  },
+  {
+    "codigo": "20104117",
+    "descricao": "Sessão de hemodiálise para tratamento de intoxicações agudas /  hemodiálise fora de rotina (por sessão)"
+  },
+  {
+    "codigo": "20104125",
+    "descricao": "Sessão de ultrafiltração isolada"
+  },
+  {
+    "codigo": "20104133",
+    "descricao": "Sessão de plasmaférese"
+  },
+  {
+    "codigo": "20104141",
+    "descricao": "Sessão de aférese"
+  },
+  {
+    "codigo": "20104150",
+    "descricao": "Sessão de hemoperfusão"
+  },
+  {
+    "codigo": "20104168",
+    "descricao": "Sessão de fotoférese"
+  },
+  {
+    "codigo": "20104176",
+    "descricao": "Sessão de hemoperfusão"
+  },
+  {
+    "codigo": "20104184",
+    "descricao": "Sessão de exsanguíneo transfusão"
+  },
+  {
+    "codigo": "20105014",
+    "descricao": "Programação de neuroestimulador medular"
+  },
+  {
+    "codigo": "20105022",
+    "descricao": "Programação de estimulador de nervo periférico"
+  },
+  {
+    "codigo": "20105030",
+    "descricao": "Programação de estimulador cerebral profundo"
+  },
+  {
+    "codigo": "20105049",
+    "descricao": "Aplicação de toxina botulínica"
+  },
+  {
+    "codigo": "20105057",
+    "descricao": "Aplicações de qualquer substância por via subcutânea, intramuscular ou intravenosa"
+  },
+  {
+    "codigo": "20105065",
+    "descricao": "Sessão de orientação familiar (psicoterapia)"
+  },
+  {
+    "codigo": "20105073",
+    "descricao": "Sessão de atendimento/intervenção em crise"
+  },
+  {
+    "codigo": "20105081",
+    "descricao": "Sessão de acupuntura"
+  },
+  {
+    "codigo": "20105090",
+    "descricao": "Sessão de eletroestimulação do assoalho pélvico/biofeedback"
+  },
+  {
+    "codigo": "20201019",
+    "descricao": "Avaliação clínica de enfermagem em CTI/UTI (por dia)"
+  },
+  {
+    "codigo": "20201027",
+    "descricao": "Avaliação clínica do paciente em ventilação mecânica (por dia)"
+  },
+  {
+    "codigo": "20201035",
+    "descricao": "Avaliação e acompanhamento nutricional do paciente hospitalizado"
+  },
+  {
+    "codigo": "20201043",
+    "descricao": "Avaliação e acompanhamento psicológico do paciente hospitalizado"
+  },
+  {
+    "codigo": "20201051",
+    "descricao": "Avaliação e acompanhamento social do paciente hospitalizado"
+  },
+  {
+    "codigo": "20202015",
+    "descricao": "Monitorização neurofisiológica intra-operatória"
+  },
+  {
+    "codigo": "20202023",
+    "descricao": "Eletroencefalograma de 24 horas"
+  },
+  {
+    "codigo": "20202031",
+    "descricao": "Eletroencefalograma de 2 horas (EEG de sôneca)"
+  },
+  {
+    "codigo": "20202040",
+    "descricao": "Polissonografia de noite inteira"
+  },
+  {
+    "codigo": "20202058",
+    "descricao": "Polissonografia de noite inteira + eletroencefalograma de 24 horas"
+  },
+  {
+    "codigo": "20202066",
+    "descricao": "Polissonografia com teste de múltiplas latências do sono"
+  },
+  {
+    "codigo": "20202074",
+    "descricao": "Polissonografia de noite inteira com CPAP"
+  },
+  {
+    "codigo": "20202082",
+    "descricao": "Estudo eletroneurofisiológico intra-operatório para monitorização"
+  },
+  {
+    "codigo": "20202090",
+    "descricao": "Potencial evocado somato-sensitivo"
+  },
+  {
+    "codigo": "20202104",
+    "descricao": "Potencial evocado auditivo de tronco encefálico"
+  },
+  {
+    "codigo": "20202112",
+    "descricao": "Potencial evocado visual"
+  },
+  {
+    "codigo": "20202120",
+    "descricao": "Potencial evocado motor"
+  },
+  {
+    "codigo": "20202139",
+    "descricao": "Mapeamento cerebral"
+  },
+  {
+    "codigo": "20202147",
+    "descricao": "Monitorização de eventos em UTI (por período de 24 horas)"
+  },
+  {
+    "codigo": "20203018",
+    "descricao": "Sessão de psicoterapia"
+  },
+  {
+    "codigo": "20203026",
+    "descricao": "Sessão de reabilitação (hospitalar)"
+  },
+  {
+    "codigo": "20203034",
+    "descricao": "Sessão de fisioterapia respiratória"
+  },
+  {
+    "codigo": "20204014",
+    "descricao": "Diálise peritoneal ambulatorial contínua (CAPD) - por mês"
+  },
+  {
+    "codigo": "20204022",
+    "descricao": "Diálise peritoneal automática (APD) - por mês"
+  },
+  {
+    "codigo": "20204030",
+    "descricao": "Tratamento conservador de insuficiência renal crônica (por dia)"
+  },
+  {
+    "codigo": "20204049",
+    "descricao": "Hemodiálise"
+  },
+  {
+    "codigo": "20204057",
+    "descricao": "Hemodiálise contínua"
+  },
+  {
+    "codigo": "20204065",
+    "descricao": "Hemodiálise de urgência"
+  },
+  {
+    "codigo": "20204073",
+    "descricao": "Diálise peritoneal (por dia)"
+  },
+  {
+    "codigo": "20204081",
+    "descricao": "Ultrafiltração"
+  },
+  {
+    "codigo": "20204090",
+    "descricao": "Plasmaférese"
+  },
+  {
+    "codigo": "20204103",
+    "descricao": "Aférese"
+  },
+  {
+    "codigo": "20204111",
+    "descricao": "Hemoperfusão"
+  },
+  {
+    "codigo": "20204120",
+    "descricao": "Fotoférese"
+  },
+  {
+    "codigo": "20204138",
+    "descricao": "Exsanguíneo transfusão"
+  },
+  {
+    "codigo": "30101015",
+    "descricao": "Abscesso de unha (drenagem)"
+  },
+  {
+    "codigo": "30101023",
+    "descricao": "Biópsia de pele, tumor de pele e anexos"
+  },
+  {
+    "codigo": "30101031",
+    "descricao": "Crioterapia (crioterapia de lesões de pele)"
+  },
+  {
+    "codigo": "30101040",
+    "descricao": "Curetagem e eletrocoagulação de lesões de pele"
+  },
+  {
+    "codigo": "30101058",
+    "descricao": "Drenagem de abscesso, hematoma ou seroma"
+  },
+  {
+    "codigo": "30101066",
+    "descricao": "Excisão e sutura simples"
+  },
+  {
+    "codigo": "30101074",
+    "descricao": "Excisão de lesão com enxerto de pele"
+  },
+  {
+    "codigo": "30101082",
+    "descricao": "Excisão de lesão com rotação de retalho local"
+  },
+  {
+    "codigo": "30101090",
+    "descricao": "Exérese de cisto sebáceo, dermoide, gorduroso ou similar"
+  },
+  {
+    "codigo": "30101104",
+    "descricao": "Exérese de unha"
+  },
+  {
+    "codigo": "30101112",
+    "descricao": "Cantoplastia"
+  },
+  {
+    "codigo": "30101120",
+    "descricao": "Exérese de queloide"
+  },
+  {
+    "codigo": "30101139",
+    "descricao": "Exérese de tumor de pele e anexos"
+  },
+  {
+    "codigo": "30101147",
+    "descricao": "Enxerto de pele"
+  },
+  {
+    "codigo": "30101155",
+    "descricao": "Retalho local"
+  },
+  {
+    "codigo": "30101163",
+    "descricao": "Retalho à distância"
+  },
+  {
+    "codigo": "30101171",
+    "descricao": "Retalho microcirúrgico"
+  },
+  {
+    "codigo": "30101180",
+    "descricao": "Retalho de perfurante"
+  },
+  {
+    "codigo": "30101198",
+    "descricao": "Sutura de pele com enxerto"
+  },
+  {
+    "codigo": "30101201",
+    "descricao": "Reconstrução com expansor"
+  },
+  {
+    "codigo": "30101210",
+    "descricao": "Reconstrução de área cruenta de pele"
+  },
+  {
+    "codigo": "30101228",
+    "descricao": "Reconstrução com implante"
+  },
+  {
+    "codigo": "30101236",
+    "descricao": "Reconstrução com enxerto de cartilagem ou osso"
+  },
+  {
+    "codigo": "30101244",
+    "descricao": "Reconstrução com transplante autólogo de gordura"
+  },
+  {
+    "codigo": "30101252",
+    "descricao": "Exérese de lipoma"
+  },
+  {
+    "codigo": "30101260",
+    "descricao": "Tratamento cirúrgico de escaras de decúbito"
+  },
+  {
+    "codigo": "30101279",
+    "descricao": "Tratamento cirúrgico de úlcera de perna"
+  },
+  {
+    "codigo": "30101287",
+    "descricao": "Tratamento cirúrgico de fístula ou cisto pré-auricular"
+  },
+  {
+    "codigo": "30101295",
+    "descricao": "Retirada de corpo estranho"
+  },
+  {
+    "codigo": "30101309",
+    "descricao": "Correção de cicatriz hipertrófica, queloidiana ou com contratura"
+  },
+  {
+    "codigo": "30101317",
+    "descricao": "Fechamento de fístula cutânea"
+  },
+  {
+    "codigo": "30101325",
+    "descricao": "Fechamento de ferida com rotação de retalho local"
+  },
+  {
+    "codigo": "30101333",
+    "descricao": "Fechamento de ferida com enxerto"
+  },
+  {
+    "codigo": "30101341",
+    "descricao": "Retirada de tumor superficial"
+  },
+  {
+    "codigo": "30101350",
+    "descricao": "Tratamento cirúrgico de hidrosadenite"
+  },
+  {
+    "codigo": "30101368",
+    "descricao": "Tratamento de unha encravada"
+  },
+  {
+    "codigo": "30101376",
+    "descricao": "Ressecção de verruga, papiloma, nevus, epitelioma ou queloide"
+  },
+  {
+    "codigo": "30101384",
+    "descricao": "Ressecção de cicatriz com ou sem zetaplastia"
+  },
+  {
+    "codigo": "30101392",
+    "descricao": "Enxerto de gordura, cartilagem ou osso"
+  },
+  {
+    "codigo": "30101406",
+    "descricao": "Correção de cicatriz"
+  },
+  {
+    "codigo": "30101414",
+    "descricao": "Fechamento de ferida complexa"
+  },
+  {
+    "codigo": "30101422",
+    "descricao": "Exérese de tumores de partes moles"
+  },
+  {
+    "codigo": "30101430",
+    "descricao": "Exérese e sutura de cisto pilonidal"
+  },
+  {
+    "codigo": "30101449",
+    "descricao": "Dermolipectomia"
+  },
+  {
+    "codigo": "30101457",
+    "descricao": "Desbridamento cirúrgico de ferida"
+  },
+  {
+    "codigo": "30101465",
+    "descricao": "Desbridamento de queimadura"
+  },
+  {
+    "codigo": "30101473",
+    "descricao": "Retirada de implante ou prótese"
+  },
+  {
+    "codigo": "30101481",
+    "descricao": "Tatuagem para tratamento de vitiligo"
+  },
+  {
+    "codigo": "30101490",
+    "descricao": "Ritidoplastia"
+  },
+  {
+    "codigo": "30101503",
+    "descricao": "Blefaroplastia"
+  },
+  {
+    "codigo": "30101511",
+    "descricao": "Rinoplastia"
+  },
+  {
+    "codigo": "30101520",
+    "descricao": "Otoplastia"
+  },
+  {
+    "codigo": "30101538",
+    "descricao": "Mamoplastia"
+  },
+  {
+    "codigo": "30101546",
+    "descricao": "Abdominoplastia"
+  },
+  {
+    "codigo": "30101554",
+    "descricao": "Lipoaspiração"
+  },
+  {
+    "codigo": "30101562",
+    "descricao": "Infiltração de gordura"
+  },
+  {
+    "codigo": "30101570",
+    "descricao": "Lipoenxertia"
+  },
+  {
+    "codigo": "30101589",
+    "descricao": "Toxina botulínica com finalidade estética"
+  },
+  {
+    "codigo": "30101597",
+    "descricao": "Preenchimento com substâncias injetáveis"
+  },
+  {
+    "codigo": "30101600",
+    "descricao": "Tatuagem"
+  },
+  {
+    "codigo": "30101619",
+    "descricao": "Reconstrução mamária"
+  },
+  {
+    "codigo": "30101627",
+    "descricao": "Reconstrução com expansor de pele"
+  },
+  {
+    "codigo": "30101635",
+    "descricao": "Enxerto de pele total"
+  },
+  {
+    "codigo": "30101643",
+    "descricao": "Enxerto de pele parcial"
+  },
+  {
+    "codigo": "30101651",
+    "descricao": "Retalho miocutâneo"
+  },
+  {
+    "codigo": "30101660",
+    "descricao": "Retalho de gordura"
+  },
+  {
+    "codigo": "30101678",
+    "descricao": "Retalho livre microcirúrgico"
+  },
+  {
+    "codigo": "30101686",
+    "descricao": "Lipoenxertia facial"
+  },
+  {
+    "codigo": "30101694",
+    "descricao": "Lipoenxertia corporal"
+  },
+  {
+    "codigo": "30201019",
+    "descricao": "Biópsia de lábio"
+  },
+  {
+    "codigo": "30201027",
+    "descricao": "Exérese de tumor de lábio"
+  },
+  {
+    "codigo": "30201035",
+    "descricao": "Exérese de lesões císticas do lábio"
+  },
+  {
+    "codigo": "30201043",
+    "descricao": "Ressecção de tumor de lábio com reconstrução"
+  },
+  {
+    "codigo": "30202013",
+    "descricao": "Biópsia de boca"
+  },
+  {
+    "codigo": "30202021",
+    "descricao": "Exérese de tumor de boca"
+  },
+  {
+    "codigo": "30202030",
+    "descricao": "Ressecção de tumor de boca com reconstrução"
+  },
+  {
+    "codigo": "30203018",
+    "descricao": "Biópsia de língua"
+  },
+  {
+    "codigo": "30203026",
+    "descricao": "Exérese de tumor de língua"
+  },
+  {
+    "codigo": "30203034",
+    "descricao": "Ressecção de tumor de língua com reconstrução"
+  },
+  {
+    "codigo": "30204012",
+    "descricao": "Biópsia de glândulas salivares"
+  },
+  {
+    "codigo": "30204020",
+    "descricao": "Exérese de glândulas salivares"
+  },
+  {
+    "codigo": "30204039",
+    "descricao": "Ressecção de tumor de glândulas salivares com reconstrução"
+  },
+  {
+    "codigo": "30205017",
+    "descricao": "Biópsia de faringe"
+  },
+  {
+    "codigo": "30205025",
+    "descricao": "Exérese de tumor de faringe"
+  },
+  {
+    "codigo": "30205033",
+    "descricao": "Ressecção de tumor de faringe com reconstrução"
+  },
+  {
+    "codigo": "30206011",
+    "descricao": "Biópsia de laringe"
+  },
+  {
+    "codigo": "30206020",
+    "descricao": "Exérese de tumor de laringe"
+  },
+  {
+    "codigo": "30206038",
+    "descricao": "Ressecção de tumor de laringe com reconstrução"
+  },
+  {
+    "codigo": "30207016",
+    "descricao": "Trauma crânio-maxilo-facial - tratamento cirúrgico"
+  },
+  {
+    "codigo": "30208010",
+    "descricao": "Cirurgia reparadora e funcional da face - tratamento cirúrgico"
+  },
+  {
+    "codigo": "30209015",
+    "descricao": "Linfadenectomia de cabeça e pescoço"
+  },
+  {
+    "codigo": "30301010",
+    "descricao": "Biópsia de conjuntiva"
+  },
+  {
+    "codigo": "30301028",
+    "descricao": "Excisão de pterígio"
+  },
+  {
+    "codigo": "30301036",
+    "descricao": "Enxerto conjuntival"
+  },
+  {
+    "codigo": "30301044",
+    "descricao": "Transplante de córnea"
+  },
+  {
+    "codigo": "30301052",
+    "descricao": "Ceratoplastia"
+  },
+  {
+    "codigo": "30301060",
+    "descricao": "Ceratotomia"
+  },
+  {
+    "codigo": "30301079",
+    "descricao": "Exérese de tumor de pálpebra"
+  },
+  {
+    "codigo": "30301087",
+    "descricao": "Reconstrução de pálpebra"
+  },
+  {
+    "codigo": "30301095",
+    "descricao": "Correção de entrópio"
+  },
+  {
+    "codigo": "30301109",
+    "descricao": "Correção de ectrópio"
+  },
+  {
+    "codigo": "30301117",
+    "descricao": "Dacriocistorrinostomia"
+  },
+  {
+    "codigo": "30301125",
+    "descricao": "Correção de ptose palpebral"
+  },
+  {
+    "codigo": "30301133",
+    "descricao": "Exérese de calázio"
+  },
+  {
+    "codigo": "30301141",
+    "descricao": "Sondagem das vias lacrimais"
+  },
+  {
+    "codigo": "30301150",
+    "descricao": "Exérese de tumor de órbita"
+  },
+  {
+    "codigo": "30301168",
+    "descricao": "Enucleação"
+  },
+  {
+    "codigo": "30301176",
+    "descricao": "Evisceração"
+  },
+  {
+    "codigo": "30301184",
+    "descricao": "Implante de prótese de órbita"
+  },
+  {
+    "codigo": "30301192",
+    "descricao": "Implante de lente intra-ocular"
+  },
+  {
+    "codigo": "30301206",
+    "descricao": "Cirurgia do cristalino (facectomia)"
+  },
+  {
+    "codigo": "30301214",
+    "descricao": "Trabeculectomia"
+  },
+  {
+    "codigo": "30301222",
+    "descricao": "Iridectomia"
+  },
+  {
+    "codigo": "30301230",
+    "descricao": "Ciclodiatermia"
+  },
+  {
+    "codigo": "30301249",
+    "descricao": "Goniotomia"
+  },
+  {
+    "codigo": "30301257",
+    "descricao": "Retinopexia com introflexão escleral"
+  },
+  {
+    "codigo": "30301265",
+    "descricao": "Vitrectomia"
+  },
+  {
+    "codigo": "30301273",
+    "descricao": "Fotocoagulação a laser"
+  },
+  {
+    "codigo": "30301281",
+    "descricao": "Injeção intraocular de substâncias"
+  },
+  {
+    "codigo": "30301290",
+    "descricao": "Implante intravítreo"
+  },
+  {
+    "codigo": "30301303",
+    "descricao": "Remoção de corpo estranho intraocular"
+  },
+  {
+    "codigo": "30301311",
+    "descricao": "Capsulotomia com yag-laser"
+  },
+  {
+    "codigo": "30301320",
+    "descricao": "Trabeculoplastia"
+  },
+  {
+    "codigo": "30301338",
+    "descricao": "Iridotomia"
+  },
+  {
+    "codigo": "30301346",
+    "descricao": "Reparo de rotura de retina a laser"
+  },
+  {
+    "codigo": "30301354",
+    "descricao": "Cirurgia a laser para tratamento de glaucoma"
+  },
+  {
+    "codigo": "30301362",
+    "descricao": "Cirurgia a laser para tratamento de retinopatia diabética"
+  },
+  {
+    "codigo": "30301370",
+    "descricao": "Cirurgia a laser para tratamento de degeneração macular"
+  },
+  {
+    "codigo": "30301389",
+    "descricao": "Outros procedimentos a laser em olhos"
+  },
+  {
+    "codigo": "30401018",
+    "descricao": "Biópsia de orelha"
+  },
+  {
+    "codigo": "30401026",
+    "descricao": "Exérese de tumor de orelha"
+  },
+  {
+    "codigo": "30401034",
+    "descricao": "Reconstrução de orelha"
+  },
+  {
+    "codigo": "30401042",
+    "descricao": "Timpanoplastia"
+  },
+  {
+    "codigo": "30401050",
+    "descricao": "Miringoplastia"
+  },
+  {
+    "codigo": "30401069",
+    "descricao": "Estapedectomia"
+  },
+  {
+    "codigo": "30401077",
+    "descricao": "Colocação de tubo de ventilação"
+  },
+  {
+    "codigo": "30401085",
+    "descricao": "Timpanotomia para inserção de dreno"
+  },
+  {
+    "codigo": "30401093",
+    "descricao": "Mastoidectomia"
+  },
+  {
+    "codigo": "30401107",
+    "descricao": "Cirurgia do osso temporal"
+  },
+  {
+    "codigo": "30401115",
+    "descricao": "Implante coclear"
+  },
+  {
+    "codigo": "30401123",
+    "descricao": "Tratamento cirúrgico da otite média crônica"
+  },
+  {
+    "codigo": "30401131",
+    "descricao": "Timpanosclerose"
+  },
+  {
+    "codigo": "30401140",
+    "descricao": "Paracentese de membrana timpânica"
+  },
+  {
+    "codigo": "30401158",
+    "descricao": "Incisão e drenagem de abscesso de orelha"
+  },
+  {
+    "codigo": "30401166",
+    "descricao": "Correção de lóbulo bífido"
+  },
+  {
+    "codigo": "30501012",
+    "descricao": "Biópsia de nariz"
+  },
+  {
+    "codigo": "30501020",
+    "descricao": "Exérese de tumor de nariz"
+  },
+  {
+    "codigo": "30501039",
+    "descricao": "Rinoplastia"
+  },
+  {
+    "codigo": "30501047",
+    "descricao": "Septoplastia"
+  },
+  {
+    "codigo": "30501055",
+    "descricao": "Redução de fratura de osso nasal"
+  },
+  {
+    "codigo": "30501063",
+    "descricao": "Exérese de pólipo nasal"
+  },
+  {
+    "codigo": "30501071",
+    "descricao": "Turbinectomia"
+  },
+  {
+    "codigo": "30501080",
+    "descricao": "Sinusotomia maxilar"
+  },
+  {
+    "codigo": "30501098",
+    "descricao": "Sinusotomia frontal"
+  },
+  {
+    "codigo": "30501101",
+    "descricao": "Sinusotomia esfenoidal"
+  },
+  {
+    "codigo": "30501110",
+    "descricao": "Sinusotomia etmoidal"
+  },
+  {
+    "codigo": "30501128",
+    "descricao": "Tratamento cirúrgico da rinite alérgica"
+  },
+  {
+    "codigo": "30501136",
+    "descricao": "Tratamento cirúrgico da epistaxe"
+  },
+  {
+    "codigo": "30501144",
+    "descricao": "Tratamento cirúrgico da sinusite"
+  },
+  {
+    "codigo": "30501152",
+    "descricao": "Tratamento cirúrgico de tumor de seio paranasal"
+  },
+  {
+    "codigo": "30601017",
+    "descricao": "Biópsia de parede torácica"
+  },
+  {
+    "codigo": "30601025",
+    "descricao": "Toracotomia"
+  },
+  {
+    "codigo": "30601033",
+    "descricao": "Drenagem de tórax"
+  },
+  {
+    "codigo": "30601041",
+    "descricao": "Reparo de ferida de parede torácica"
+  },
+  {
+    "codigo": "30601050",
+    "descricao": "Reconstrução da parede torácica"
+  },
+  {
+    "codigo": "30601068",
+    "descricao": "Tratamento cirúrgico do pectus excavatum/carinatum"
+  },
+  {
+    "codigo": "30701011",
+    "descricao": "Biópsia de osso ou cartilagem"
+  },
+  {
+    "codigo": "30701020",
+    "descricao": "Artroscopia diagnóstica"
+  },
+  {
+    "codigo": "30701038",
+    "descricao": "Artroscopia terapêutica"
+  },
+  {
+    "codigo": "30701046",
+    "descricao": "Artroplastia de quadril"
+  },
+  {
+    "codigo": "30701054",
+    "descricao": "Artroplastia de joelho"
+  },
+  {
+    "codigo": "30701062",
+    "descricao": "Artroplastia de ombro"
+  },
+  {
+    "codigo": "30701070",
+    "descricao": "Artroplastia de cotovelo"
+  },
+  {
+    "codigo": "30701089",
+    "descricao": "Artroplastia de punho"
+  },
+  {
+    "codigo": "30701097",
+    "descricao": "Artroplastia de tornozelo"
+  },
+  {
+    "codigo": "30701100",
+    "descricao": "Artroplastia de mão ou pé"
+  },
+  {
+    "codigo": "30701119",
+    "descricao": "Osteossíntese de fratura"
+  },
+  {
+    "codigo": "30701127",
+    "descricao": "Osteotomia"
+  },
+  {
+    "codigo": "30701135",
+    "descricao": "Tratamento cirúrgico de luxação"
+  },
+  {
+    "codigo": "30701143",
+    "descricao": "Desbridamento de ferida com osteomielite"
+  },
+  {
+    "codigo": "30701151",
+    "descricao": "Tratamento cirúrgico de tumor de osso"
+  },
+  {
+    "codigo": "30701160",
+    "descricao": "Amputação"
+  },
+  {
+    "codigo": "30701178",
+    "descricao": "Reimplante"
+  },
+  {
+    "codigo": "30701186",
+    "descricao": "Artrodese"
+  },
+  {
+    "codigo": "30701194",
+    "descricao": "Tenoplastia"
+  },
+  {
+    "codigo": "30701208",
+    "descricao": "Enxerto ósseo"
+  },
+  {
+    "codigo": "30701216",
+    "descricao": "Descompressão de nervo periférico"
+  },
+  {
+    "codigo": "30701224",
+    "descricao": "Biopsia muscular"
+  },
+  {
+    "codigo": "30701232",
+    "descricao": "Fasciotomia"
+  },
+  {
+    "codigo": "30701240",
+    "descricao": "Miotomia"
+  },
+  {
+    "codigo": "30701259",
+    "descricao": "Alongamento de tendão"
+  },
+  {
+    "codigo": "30701267",
+    "descricao": "Reparo de tendão"
+  },
+  {
+    "codigo": "30701275",
+    "descricao": "Tenodese"
+  },
+  {
+    "codigo": "30701283",
+    "descricao": "Transplante de tendão"
+  },
+  {
+    "codigo": "30701291",
+    "descricao": "Excisão de cisto sinovial"
+  },
+  {
+    "codigo": "30701305",
+    "descricao": "Excisão de bursa"
+  },
+  {
+    "codigo": "30701313",
+    "descricao": "Sinovectomia"
+  },
+  {
+    "codigo": "30701321",
+    "descricao": "Artroscopia do joelho"
+  },
+  {
+    "codigo": "30701330",
+    "descricao": "Artroscopia do ombro"
+  },
+  {
+    "codigo": "30701348",
+    "descricao": "Artroscopia do quadril"
+  },
+  {
+    "codigo": "30701356",
+    "descricao": "Artroscopia do tornozelo"
+  },
+  {
+    "codigo": "30701364",
+    "descricao": "Artroscopia do punho"
+  },
+  {
+    "codigo": "30701372",
+    "descricao": "Artroscopia do cotovelo"
+  },
+  {
+    "codigo": "30701380",
+    "descricao": "Artroscopia de outras articulações"
+  },
+  {
+    "codigo": "30701399",
+    "descricao": "Tratamento cirúrgico de deformidades ósseas"
+  },
+  {
+    "codigo": "30701402",
+    "descricao": "Tratamento cirúrgico de fraturas complexas"
+  },
+  {
+    "codigo": "30701410",
+    "descricao": "Tratamento cirúrgico de tumores de partes moles"
+  },
+  {
+    "codigo": "30701429",
+    "descricao": "Tratamento cirúrgico de lesões ligamentares do joelho"
+  },
+  {
+    "codigo": "30701437",
+    "descricao": "Tratamento cirúrgico de lesões meniscais"
+  },
+  {
+    "codigo": "30701445",
+    "descricao": "Tratamento cirúrgico de lesões cartilaginosas"
+  },
+  {
+    "codigo": "30701453",
+    "descricao": "Tratamento cirúrgico de artrose"
+  },
+  {
+    "codigo": "30701461",
+    "descricao": "Tratamento cirúrgico de luxação do ombro"
+  },
+  {
+    "codigo": "30701470",
+    "descricao": "Tratamento cirúrgico de epicondilite"
+  },
+  {
+    "codigo": "30701488",
+    "descricao": "Tratamento cirúrgico de síndrome do túnel do carpo"
+  },
+  {
+    "codigo": "30701496",
+    "descricao": "Tratamento cirúrgico de dedo em gatilho"
+  },
+  {
+    "codigo": "30701500",
+    "descricao": "Fasciotomia plantar"
+  },
+  {
+    "codigo": "30701518",
+    "descricao": "Ressecção de neuroma de Morton"
+  },
+  {
+    "codigo": "30701526",
+    "descricao": "Tratamento cirúrgico de hallux valgus"
+  },
+  {
+    "codigo": "30701534",
+    "descricao": "Tratamento cirúrgico de hallux rigidus"
+  },
+  {
+    "codigo": "30701542",
+    "descricao": "Tratamento cirúrgico de osteoartrite do tornozelo"
+  },
+  {
+    "codigo": "30701550",
+    "descricao": "Tratamento cirúrgico de tendinopatias"
+  },
+  {
+    "codigo": "30701569",
+    "descricao": "Tratamento cirúrgico de fratura da coluna vertebral"
+  },
+  {
+    "codigo": "30701577",
+    "descricao": "Tratamento cirúrgico de hérnia de disco"
+  },
+  {
+    "codigo": "30701585",
+    "descricao": "Tratamento cirúrgico de estenose do canal vertebral"
+  },
+  {
+    "codigo": "30701593",
+    "descricao": "Tratamento cirúrgico de espondilolistese"
+  },
+  {
+    "codigo": "30701607",
+    "descricao": "Tratamento cirúrgico de escoliose"
+  },
+  {
+    "codigo": "30701615",
+    "descricao": "Tratamento cirúrgico de cifose"
+  },
+  {
+    "codigo": "30701623",
+    "descricao": "Tratamento cirúrgico de tumor de coluna vertebral"
+  },
+  {
+    "codigo": "30701631",
+    "descricao": "Tratamento cirúrgico de infecção de coluna vertebral"
+  },
+  {
+    "codigo": "30701640",
+    "descricao": "Tratamento cirúrgico de dor crônica de coluna"
+  },
+  {
+    "codigo": "30801016",
+    "descricao": "Biópsia de pleura"
+  },
+  {
+    "codigo": "30801024",
+    "descricao": "Biópsia de pulmão"
+  },
+  {
+    "codigo": "30801032",
+    "descricao": "Toracotomia exploradora"
+  },
+  {
+    "codigo": "30801040",
+    "descricao": "Pneumonectomia"
+  },
+  {
+    "codigo": "30801059",
+    "descricao": "Lobectomia"
+  },
+  {
+    "codigo": "30801067",
+    "descricao": "Segmentectomia"
+  },
+  {
+    "codigo": "30801075",
+    "descricao": "Tratamento cirúrgico de pneumotórax"
+  },
+  {
+    "codigo": "30801083",
+    "descricao": "Tratamento cirúrgico de derrame pleural"
+  },
+  {
+    "codigo": "30801091",
+    "descricao": "Ressecção de tumor de parede torácica"
+  },
+  {
+    "codigo": "30801105",
+    "descricao": "Ressecção de tumor de pleura"
+  },
+  {
+    "codigo": "30801113",
+    "descricao": "Ressecção de tumor de pulmão"
+  },
+  {
+    "codigo": "30801121",
+    "descricao": "Tratamento cirúrgico de enfisema"
+  },
+  {
+    "codigo": "30801130",
+    "descricao": "Tratamento cirúrgico de cisto de pulmão"
+  },
+  {
+    "codigo": "30801148",
+    "descricao": "Traqueostomia"
+  },
+  {
+    "codigo": "30801156",
+    "descricao": "Fechamento de fístula traqueal"
+  },
+  {
+    "codigo": "30801164",
+    "descricao": "Broncoscopia"
+  },
+  {
+    "codigo": "30801172",
+    "descricao": "Mediastinoscopia"
+  },
+  {
+    "codigo": "30801180",
+    "descricao": "Laringoscopia"
+  },
+  {
+    "codigo": "30801199",
+    "descricao": "Ressecção de tumor de mediastino"
+  },
+  {
+    "codigo": "30901010",
+    "descricao": "Biópsia de coração"
+  },
+  {
+    "codigo": "30901029",
+    "descricao": "Cirurgia para correção de defeitos do septo atrial e ventricular"
+  },
+  {
+    "codigo": "30901037",
+    "descricao": "Cirurgia para correção de transposição de grandes vasos"
+  },
+  {
+    "codigo": "30901045",
+    "descricao": "Cirurgia para correção de tetralogia de Fallot"
+  },
+  {
+    "codigo": "30901053",
+    "descricao": "Cirurgia para correção de coarctação de aorta"
+  },
+  {
+    "codigo": "30901061",
+    "descricao": "Cirurgia para correção de estenose aórtica"
+  },
+  {
+    "codigo": "30901070",
+    "descricao": "Cirurgia para correção de estenose pulmonar"
+  },
+  {
+    "codigo": "30901088",
+    "descricao": "Implante de marcapasso"
+  },
+  {
+    "codigo": "30901096",
+    "descricao": "Implante de desfibrilador automático"
+  },
+  {
+    "codigo": "30901100",
+    "descricao": "Implante de cardioversor"
+  },
+  {
+    "codigo": "30901118",
+    "descricao": "Ablação por radiofrequência"
+  },
+  {
+    "codigo": "30901126",
+    "descricao": "Angioplastia"
+  },
+  {
+    "codigo": "30901134",
+    "descricao": "Cateterismo cardíaco"
+  },
+  {
+    "codigo": "30901142",
+    "descricao": "Implante de stent"
+  },
+  {
+    "codigo": "30901150",
+    "descricao": "Cirurgia de revascularização do miocárdio (ponte de safena)"
+  },
+  {
+    "codigo": "30901169",
+    "descricao": "Cirurgia de valva cardíaca"
+  },
+  {
+    "codigo": "30901177",
+    "descricao": "Cirurgia de aneurisma de aorta"
+  },
+  {
+    "codigo": "30901185",
+    "descricao": "Cirurgia de varizes"
+  },
+  {
+    "codigo": "30901193",
+    "descricao": "Tratamento de varizes com laser"
+  },
+  {
+    "codigo": "30901207",
+    "descricao": "Escleroterapia de varizes"
+  },
+  {
+    "codigo": "30901215",
+    "descricao": "Flebectomia"
+  },
+  {
+    "codigo": "30901223",
+    "descricao": "Ligadura de veias perfurantes"
+  },
+  {
+    "codigo": "30901231",
+    "descricao": "Implante de filtro de veia cava"
+  },
+  {
+    "codigo": "30901240",
+    "descricao": "Implante de marcapasso provisório"
+  },
+  {
+    "codigo": "30901258",
+    "descricao": "Reconstrução de artéria"
+  },
+  {
+    "codigo": "30901266",
+    "descricao": "Embolectomia"
+  },
+  {
+    "codigo": "30901274",
+    "descricao": "Trombectomia"
+  },
+  {
+    "codigo": "30901282",
+    "descricao": "Cirurgia de carótida"
+  },
+  {
+    "codigo": "30901290",
+    "descricao": "Angioplastia de carótida"
+  },
+  {
+    "codigo": "30901304",
+    "descricao": "Implante de stent em carótida"
+  },
+  {
+    "codigo": "30901312",
+    "descricao": "Cirurgia para correção de aneurisma de aorta abdominal"
+  },
+  {
+    "codigo": "30901320",
+    "descricao": "Cirurgia para correção de aneurisma de artéria periférica"
+  },
+  {
+    "codigo": "30901339",
+    "descricao": "Implante de endoprótese em aorta"
+  },
+  {
+    "codigo": "30901347",
+    "descricao": "Implante de endoprótese em artéria periférica"
+  },
+  {
+    "codigo": "30901355",
+    "descricao": "Cirurgia para fístula arteriovenosa"
+  },
+  {
+    "codigo": "31001015",
+    "descricao": "Biópsia de esôfago"
+  },
+  {
+    "codigo": "31001023",
+    "descricao": "Dilatação de esôfago"
+  },
+  {
+    "codigo": "31001031",
+    "descricao": "Esofagectomia"
+  },
+  {
+    "codigo": "31001040",
+    "descricao": "Fundoplicatura"
+  },
+  {
+    "codigo": "31001058",
+    "descricao": "Cirurgia para correção de hérnia de hiato"
+  },
+  {
+    "codigo": "31001066",
+    "descricao": "Cirurgia para correção de acalásia"
+  },
+  {
+    "codigo": "31001074",
+    "descricao": "Gastrostomia"
+  },
+  {
+    "codigo": "31001082",
+    "descricao": "Gastroenterostomia"
+  },
+  {
+    "codigo": "31001090",
+    "descricao": "Gastrectomia"
+  },
+  {
+    "codigo": "31001104",
+    "descricao": "Cirurgia para tratamento de úlcera gástrica ou duodenal"
+  },
+  {
+    "codigo": "31001112",
+    "descricao": "Cirurgia bariátrica"
+  },
+  {
+    "codigo": "31001120",
+    "descricao": "Biópsia de estômago"
+  },
+  {
+    "codigo": "31001139",
+    "descricao": "Biópsia de intestino delgado"
+  },
+  {
+    "codigo": "31001147",
+    "descricao": "Ressecção de intestino delgado"
+  },
+  {
+    "codigo": "31001155",
+    "descricao": "Enterostomia"
+  },
+  {
+    "codigo": "31001163",
+    "descricao": "Enterorrafia"
+  },
+  {
+    "codigo": "31001171",
+    "descricao": "Tratamento cirúrgico da apendicite"
+  },
+  {
+    "codigo": "31001180",
+    "descricao": "Biópsia de intestino grosso"
+  },
+  {
+    "codigo": "31001198",
+    "descricao": "Ressecção de intestino grosso"
+  },
+  {
+    "codigo": "31001201",
+    "descricao": "Colectomia"
+  },
+  {
+    "codigo": "31001210",
+    "descricao": "Retossigmoidectomia"
+  },
+  {
+    "codigo": "31001228",
+    "descricao": "Anastomose"
+  },
+  {
+    "codigo": "31001236",
+    "descricao": "Tratamento cirúrgico de diverticulite"
+  },
+  {
+    "codigo": "31001244",
+    "descricao": "Tratamento cirúrgico de doença de Crohn"
+  },
+  {
+    "codigo": "31001252",
+    "descricao": "Tratamento cirúrgico de colite ulcerativa"
+  },
+  {
+    "codigo": "31001260",
+    "descricao": "Tratamento cirúrgico de hemorróidas"
+  },
+  {
+    "codigo": "31001279",
+    "descricao": "Esclerose de hemorróidas"
+  },
+  {
+    "codigo": "31001287",
+    "descricao": "Ligadura de hemorróidas"
+  },
+  {
+    "codigo": "31001295",
+    "descricao": "Cirurgia de fístula anal"
+  },
+  {
+    "codigo": "31001309",
+    "descricao": "Cirurgia de fissura anal"
+  },
+  {
+    "codigo": "31001317",
+    "descricao": "Tratamento cirúrgico de abscesso anorretal"
+  },
+  {
+    "codigo": "31001325",
+    "descricao": "Dilatação de ânus"
+  },
+  {
+    "codigo": "31001333",
+    "descricao": "Esfincterotomia interna"
+  },
+  {
+    "codigo": "31001341",
+    "descricao": "Biópsia de ânus"
+  },
+  {
+    "codigo": "31001350",
+    "descricao": "Esclerose de varizes de esôfago"
+  },
+  {
+    "codigo": "31001368",
+    "descricao": "Ligadura elástica de varizes de esôfago"
+  },
+  {
+    "codigo": "31001376",
+    "descricao": "Gastroscopia"
+  },
+  {
+    "codigo": "31001384",
+    "descricao": "Colonoscopia"
+  },
+  {
+    "codigo": "31001392",
+    "descricao": "Retossigmoidoscopia"
+  },
+  {
+    "codigo": "31001406",
+    "descricao": "Enteroscopia"
+  },
+  {
+    "codigo": "31001414",
+    "descricao": "Endoscopia digestiva alta"
+  },
+  {
+    "codigo": "31001422",
+    "descricao": "Colangiopancreatografia endoscópica retrógrada (CPRE)"
+  },
+  {
+    "codigo": "31001430",
+    "descricao": "Gastrostomia endoscópica percutânea (GEP)"
+  },
+  {
+    "codigo": "31001449",
+    "descricao": "Colocação de balão intragástrico"
+  },
+  {
+    "codigo": "31001457",
+    "descricao": "Biópsia de fígado"
+  },
+  {
+    "codigo": "31001465",
+    "descricao": "Colecistectomia"
+  },
+  {
+    "codigo": "31001473",
+    "descricao": "Coledocotomia"
+  },
+  {
+    "codigo": "31001481",
+    "descricao": "Coledocoplastia"
+  },
+  {
+    "codigo": "31001490",
+    "descricao": "Ressecção de tumor de vias biliares"
+  },
+  {
+    "codigo": "31001503",
+    "descricao": "Biópsia de pâncreas"
+  },
+  {
+    "codigo": "31001511",
+    "descricao": "Pancreatectomia"
+  },
+  {
+    "codigo": "31001520",
+    "descricao": "Derivação pancreática"
+  },
+  {
+    "codigo": "31001538",
+    "descricao": "Tratamento cirúrgico de cisto de pâncreas"
+  },
+  {
+    "codigo": "31001546",
+    "descricao": "Biópsia de baço"
+  },
+  {
+    "codigo": "31001554",
+    "descricao": "Esplenectomia"
+  },
+  {
+    "codigo": "31001562",
+    "descricao": "Biópsia de peritoneo"
+  },
+  {
+    "codigo": "31001570",
+    "descricao": "Paracentese"
+  },
+  {
+    "codigo": "31001589",
+    "descricao": "Laparotomia exploradora"
+  },
+  {
+    "codigo": "31001597",
+    "descricao": "Aderenciolise"
+  },
+  {
+    "codigo": "31001600",
+    "descricao": "Ressecção de tumor de peritoneo"
+  },
+  {
+    "codigo": "31001619",
+    "descricao": "Tratamento cirúrgico de hérnia de parede abdominal"
+  },
+  {
+    "codigo": "31001627",
+    "descricao": "Hernioplastia umbilical"
+  },
+  {
+    "codigo": "31001635",
+    "descricao": "Hernioplastia inguinal"
+  },
+  {
+    "codigo": "31001643",
+    "descricao": "Hernioplastia femoral"
+  },
+  {
+    "codigo": "31001651",
+    "descricao": "Hernioplastia incisional"
+  },
+  {
+    "codigo": "31101010",
+    "descricao": "Biópsia de rim"
+  },
+  {
+    "codigo": "31101029",
+    "descricao": "Nefrectomia"
+  },
+  {
+    "codigo": "31101037",
+    "descricao": "Nefropexia"
+  },
+  {
+    "codigo": "31101045",
+    "descricao": "Nefrostomia"
+  },
+  {
+    "codigo": "31101053",
+    "descricao": "Pieloplastia"
+  },
+  {
+    "codigo": "31101061",
+    "descricao": "Cistoscopia"
+  },
+  {
+    "codigo": "31101070",
+    "descricao": "Tratamento cirúrgico de cálculo renal"
+  },
+  {
+    "codigo": "31101088",
+    "descricao": "Tratamento cirúrgico de tumor de rim"
+  },
+  {
+    "codigo": "31101096",
+    "descricao": "Tratamento cirúrgico de cisto renal"
+  },
+  {
+    "codigo": "31101100",
+    "descricao": "Biópsia de bexiga"
+  },
+  {
+    "codigo": "31101118",
+    "descricao": "Cistectomia"
+  },
+  {
+    "codigo": "31101126",
+    "descricao": "Cistoplastia"
+  },
+  {
+    "codigo": "31101134",
+    "descricao": "Ressecção de tumor de bexiga"
+  },
+  {
+    "codigo": "31101142",
+    "descricao": "Tratamento cirúrgico de incontinência urinária"
+  },
+  {
+    "codigo": "31101150",
+    "descricao": "Ureteroscopia"
+  },
+  {
+    "codigo": "31101169",
+    "descricao": "Ureterolitotomia"
+  },
+  {
+    "codigo": "31101177",
+    "descricao": "Tratamento cirúrgico de estenose de ureter"
+  },
+  {
+    "codigo": "31101185",
+    "descricao": "Ureteroplastia"
+  },
+  {
+    "codigo": "31101193",
+    "descricao": "Ureterostomia"
+  },
+  {
+    "codigo": "31101207",
+    "descricao": "Tratamento cirúrgico de refluxo vesico-ureteral"
+  },
+  {
+    "codigo": "31101215",
+    "descricao": "Cistoscopia com biópsia"
+  },
+  {
+    "codigo": "31101223",
+    "descricao": "Cistoscopia com fulguração de tumor"
+  },
+  {
+    "codigo": "31101231",
+    "descricao": "Cistoscopia com retirada de cálculo"
+  },
+  {
+    "codigo": "31101240",
+    "descricao": "Cistoscopia com retirada de corpo estranho"
+  },
+  {
+    "codigo": "31101258",
+    "descricao": "Nefrolitotomia percutânea"
+  },
+  {
+    "codigo": "31101266",
+    "descricao": "Ureterorrenoscopia flexível"
+  },
+  {
+    "codigo": "31101274",
+    "descricao": "Ureterorrenoscopia rígida"
+  },
+  {
+    "codigo": "31101282",
+    "descricao": "Litotripsia extracorpórea"
+  },
+  {
+    "codigo": "31101290",
+    "descricao": "Litotripsia intracorpórea"
+  },
+  {
+    "codigo": "31101304",
+    "descricao": "Nefrectomia parcial"
+  },
+  {
+    "codigo": "31101312",
+    "descricao": "Nefrectomia total"
+  },
+  {
+    "codigo": "31101320",
+    "descricao": "Nefrectomia radical"
+  },
+  {
+    "codigo": "31101339",
+    "descricao": "Cistectomia parcial"
+  },
+  {
+    "codigo": "31101347",
+    "descricao": "Cistectomia radical"
+  },
+  {
+    "codigo": "31101355",
+    "descricao": "Eletrovaporização de tumor de bexiga"
+  },
+  {
+    "codigo": "31101363",
+    "descricao": "Eletrocirurgia de tumor de bexiga"
+  },
+  {
+    "codigo": "31101371",
+    "descricao": "Tratamento cirúrgico de cisto de uraco"
+  },
+  {
+    "codigo": "31101380",
+    "descricao": "Tratamento cirúrgico de estenose de uretra"
+  },
+  {
+    "codigo": "31101398",
+    "descricao": "Uretrotomia interna"
+  },
+  {
+    "codigo": "31101401",
+    "descricao": "Uretroplastia"
+  },
+  {
+    "codigo": "31101410",
+    "descricao": "Uretroscopia"
+  },
+  {
+    "codigo": "31101428",
+    "descricao": "Tratamento cirúrgico de hipospádia"
+  },
+  {
+    "codigo": "31101436",
+    "descricao": "Tratamento cirúrgico de epispadia"
+  },
+  {
+    "codigo": "31101444",
+    "descricao": "Circuncisão"
+  },
+  {
+    "codigo": "31101452",
+    "descricao": "Tratamento cirúrgico de fimose"
+  },
+  {
+    "codigo": "31101460",
+    "descricao": "Postectomia"
+  },
+  {
+    "codigo": "31101479",
+    "descricao": "Tratamento cirúrgico de tumor de pênis"
+  },
+  {
+    "codigo": "31101487",
+    "descricao": "Tratamento cirúrgico de doença de Peyronie"
+  },
+  {
+    "codigo": "31101495",
+    "descricao": "Implante de prótese peniana"
+  },
+  {
+    "codigo": "31101509",
+    "descricao": "Tratamento cirúrgico de varicocele"
+  },
+  {
+    "codigo": "31101517",
+    "descricao": "Tratamento cirúrgico de hidrocele"
+  },
+  {
+    "codigo": "31101525",
+    "descricao": "Tratamento cirúrgico de tumor de testículo"
+  },
+  {
+    "codigo": "31101533",
+    "descricao": "Orquiectomia"
+  },
+  {
+    "codigo": "31101541",
+    "descricao": "Orquidopexia"
+  },
+  {
+    "codigo": "31101550",
+    "descricao": "Tratamento cirúrgico de torção de testículo"
+  },
+  {
+    "codigo": "31101568",
+    "descricao": "Biópsia de próstata"
+  },
+  {
+    "codigo": "31101576",
+    "descricao": "Prostatectomia"
+  },
+  {
+    "codigo": "31101584",
+    "descricao": "Ressecção endoscópica de próstata (RTU)"
+  },
+  {
+    "codigo": "31101592",
+    "descricao": "Prostatectomia radical"
+  },
+  {
+    "codigo": "31101606",
+    "descricao": "Prostatectomia simples"
+  },
+  {
+    "codigo": "31101614",
+    "descricao": "Tratamento de hiperplasia benigna da próstata com laser"
+  },
+  {
+    "codigo": "31101622",
+    "descricao": "Tratamento de hiperplasia benigna da próstata com radiofrequência"
+  },
+  {
+    "codigo": "31101630",
+    "descricao": "Tratamento de hiperplasia benigna da próstata com termoterapia"
+  },
+  {
+    "codigo": "31101649",
+    "descricao": "Biópsia de sêmen"
+  },
+  {
+    "codigo": "31101657",
+    "descricao": "Vesiculotomia"
+  },
+  {
+    "codigo": "31101665",
+    "descricao": "Vasectomia"
+  },
+  {
+    "codigo": "31101673",
+    "descricao": "Reanastomose de ductos deferentes"
+  },
+  {
+    "codigo": "31201015",
+    "descricao": "Biópsia de ovário"
+  },
+  {
+    "codigo": "31201023",
+    "descricao": "Ovariectomia"
+  },
+  {
+    "codigo": "31201031",
+    "descricao": "Ooforoplastia"
+  },
+  {
+    "codigo": "31201040",
+    "descricao": "Ressecção de cisto de ovário"
+  },
+  {
+    "codigo": "31201058",
+    "descricao": "Biópsia de tuba uterina"
+  },
+  {
+    "codigo": "31201066",
+    "descricao": "Salpingectomia"
+  },
+  {
+    "codigo": "31201074",
+    "descricao": "Salpingoplastia"
+  },
+  {
+    "codigo": "31201082",
+    "descricao": "Biópsia de útero"
+  },
+  {
+    "codigo": "31201090",
+    "descricao": "Histerectomia"
+  },
+  {
+    "codigo": "31201104",
+    "descricao": "Miomectomia"
+  },
+  {
+    "codigo": "31201112",
+    "descricao": "Histeroscopia"
+  },
+  {
+    "codigo": "31201120",
+    "descricao": "Curetagem uterina"
+  },
+  {
+    "codigo": "31201139",
+    "descricao": "Biópsia de colo uterino"
+  },
+  {
+    "codigo": "31201147",
+    "descricao": "Conização de colo uterino"
+  },
+  {
+    "codigo": "31201155",
+    "descricao": "Traquelectomia"
+  },
+  {
+    "codigo": "31201163",
+    "descricao": "Biópsia de vagina"
+  },
+  {
+    "codigo": "31201171",
+    "descricao": "Vaginectomia"
+  },
+  {
+    "codigo": "31201180",
+    "descricao": "Colporrafia"
+  },
+  {
+    "codigo": "31201198",
+    "descricao": "Biópsia de vulva"
+  },
+  {
+    "codigo": "31201201",
+    "descricao": "Vulvectomia"
+  },
+  {
+    "codigo": "31201210",
+    "descricao": "Marsupialização de glândula de Bartholin"
+  },
+  {
+    "codigo": "31201228",
+    "descricao": "Tratamento cirúrgico de cisto de Bartholin"
+  },
+  {
+    "codigo": "31201236",
+    "descricao": "Tratamento cirúrgico de endometriose"
+  },
+  {
+    "codigo": "31201244",
+    "descricao": "Tratamento cirúrgico de prolapso uterino"
+  },
+  {
+    "codigo": "31201252",
+    "descricao": "Tratamento cirúrgico de incontinência urinária feminina"
+  },
+  {
+    "codigo": "31201260",
+    "descricao": "Laparoscopia ginecológica"
+  },
+  {
+    "codigo": "31201279",
+    "descricao": "Laparoscopia para biópsia de ovário"
+  },
+  {
+    "codigo": "31201287",
+    "descricao": "Laparoscopia para ooforoplastia"
+  },
+  {
+    "codigo": "31201295",
+    "descricao": "Laparoscopia para salpingectomia"
+  },
+  {
+    "codigo": "31201309",
+    "descricao": "Laparoscopia para salpingoplastia"
+  },
+  {
+    "codigo": "31201317",
+    "descricao": "Laparoscopia para histerectomia"
+  },
+  {
+    "codigo": "31201325",
+    "descricao": "Laparoscopia para miomectomia"
+  },
+  {
+    "codigo": "31201333",
+    "descricao": "Laparoscopia para tratamento de endometriose"
+  },
+  {
+    "codigo": "31201341",
+    "descricao": "Laqueadura tubária por laparoscopia"
+  },
+  {
+    "codigo": "31201350",
+    "descricao": "Tratamento de gravidez ectópica por laparoscopia"
+  },
+  {
+    "codigo": "31201368",
+    "descricao": "Histeroscopia para biópsia de útero"
+  },
+  {
+    "codigo": "31201376",
+    "descricao": "Histeroscopia para miomectomia"
+  },
+  {
+    "codigo": "31201384",
+    "descricao": "Histeroscopia para polipectomia"
+  },
+  {
+    "codigo": "31201392",
+    "descricao": "Histeroscopia para retirada de corpo estranho"
+  },
+  {
+    "codigo": "31201406",
+    "descricao": "Biópsia de mama"
+  },
+  {
+    "codigo": "31201414",
+    "descricao": "Punção aspirativa por agulha fina (PAAF)"
+  },
+  {
+    "codigo": "31201422",
+    "descricao": "Core biópsia"
+  },
+  {
+    "codigo": "31201430",
+    "descricao": "Exérese de nódulo de mama"
+  },
+  {
+    "codigo": "31201449",
+    "descricao": "Mastectomia"
+  },
+  {
+    "codigo": "31201457",
+    "descricao": "Reconstrução mamária"
+  },
+  {
+    "codigo": "31201465",
+    "descricao": "Cirurgia de mama redutora"
+  },
+  {
+    "codigo": "31201473",
+    "descricao": "Cirurgia de mama de aumento"
+  },
+  {
+    "codigo": "31201481",
+    "descricao": "Ginecomastia"
+  },
+  {
+    "codigo": "31201490",
+    "descricao": "Tratamento cirúrgico de abscesso de mama"
+  },
+  {
+    "codigo": "31201503",
+    "descricao": "Exérese de mama supranumerária"
+  },
+  {
+    "codigo": "31201511",
+    "descricao": "Tratamento cirúrgico de mastite"
+  },
+  {
+    "codigo": "31201520",
+    "descricao": "Reconstrução do mamilo"
+  },
+  {
+    "codigo": "31201538",
+    "descricao": "Reconstrução da aréola"
+  },
+  {
+    "codigo": "31201546",
+    "descricao": "Tratamento de fissura mamilar"
+  },
+  {
+    "codigo": "31301010",
+    "descricao": "Cesariana"
+  },
+  {
+    "codigo": "31301029",
+    "descricao": "Parto normal"
+  },
+  {
+    "codigo": "31301037",
+    "descricao": "Parto a fórceps"
+  },
+  {
+    "codigo": "31301045",
+    "descricao": "Episiotomia"
+  },
+  {
+    "codigo": "31301053",
+    "descricao": "Reparo de laceração perineal"
+  },
+  {
+    "codigo": "31301061",
+    "descricao": "Versão externa"
+  },
+  {
+    "codigo": "31301070",
+    "descricao": "Versão interna"
+  },
+  {
+    "codigo": "31301088",
+    "descricao": "Técnica de Apgar"
+  },
+  {
+    "codigo": "31301096",
+    "descricao": "Retirada manual da placenta"
+  },
+  {
+    "codigo": "31301100",
+    "descricao": "Embolização de artérias uterinas"
+  },
+  {
+    "codigo": "31301118",
+    "descricao": "Histerectomia pós-parto"
+  },
+  {
+    "codigo": "31301126",
+    "descricao": "Tratamento de gravidez ectópica"
+  },
+  {
+    "codigo": "31301134",
+    "descricao": "Tratamento de aborto"
+  },
+  {
+    "codigo": "31301142",
+    "descricao": "Amniocentese"
+  },
+  {
+    "codigo": "31301150",
+    "descricao": "Cardiotocografia"
+  },
+  {
+    "codigo": "31301169",
+    "descricao": "Ultrassonografia obstétrica"
+  },
+  {
+    "codigo": "31301177",
+    "descricao": "Ultrassonografia morfológica fetal"
+  },
+  {
+    "codigo": "31301185",
+    "descricao": "Dopplerfluxometria obstétrica"
+  },
+  {
+    "codigo": "31401014",
+    "descricao": "Biópsia de cérebro"
+  },
+  {
+    "codigo": "31401022",
+    "descricao": "Craniectomia"
+  },
+  {
+    "codigo": "31401030",
+    "descricao": "Cranioplastia"
+  },
+  {
+    "codigo": "31401049",
+    "descricao": "Derivação ventriculoperitoneal"
+  },
+  {
+    "codigo": "31401057",
+    "descricao": "Derivação ventriculoatrial"
+  },
+  {
+    "codigo": "31401065",
+    "descricao": "Tratamento cirúrgico de tumor cerebral"
+  },
+  {
+    "codigo": "31401073",
+    "descricao": "Tratamento cirúrgico de aneurisma cerebral"
+  },
+  {
+    "codigo": "31401081",
+    "descricao": "Tratamento cirúrgico de malformação arteriovenosa"
+  },
+  {
+    "codigo": "31401090",
+    "descricao": "Tratamento cirúrgico de hematoma subdural"
+  },
+  {
+    "codigo": "31401103",
+    "descricao": "Tratamento cirúrgico de hemorragia intracerebral"
+  },
+  {
+    "codigo": "31401111",
+    "descricao": "Tratamento cirúrgico de hidrocefalia"
+  },
+  {
+    "codigo": "31401120",
+    "descricao": "Tratamento cirúrgico de epilepsia"
+  },
+  {
+    "codigo": "31401138",
+    "descricao": "Tratamento cirúrgico de doença de Parkinson"
+  },
+  {
+    "codigo": "31401146",
+    "descricao": "Tratamento cirúrgico de dor crônica"
+  },
+  {
+    "codigo": "31401154",
+    "descricao": "Estimulação cerebral profunda"
+  },
+  {
+    "codigo": "31401162",
+    "descricao": "Implante de eletrodo cerebral"
+  },
+  {
+    "codigo": "31401170",
+    "descricao": "Descompressão de nervo craniano"
+  },
+  {
+    "codigo": "31401189",
+    "descricao": "Microcirurgia de tumor cerebral"
+  },
+  {
+    "codigo": "31401197",
+    "descricao": "Microcirurgia de aneurisma cerebral"
+  },
+  {
+    "codigo": "31401200",
+    "descricao": "Microcirurgia de malformação arteriovenosa"
+  },
+  {
+    "codigo": "31401219",
+    "descricao": "Endoscopia cerebral"
+  },
+  {
+    "codigo": "31401227",
+    "descricao": "Craniectomia descompressiva"
+  },
+  {
+    "codigo": "31401235",
+    "descricao": "Drenagem de abscesso cerebral"
+  },
+  {
+    "codigo": "31401243",
+    "descricao": "Reconstrução de nervo periférico"
+  },
+  {
+    "codigo": "31401251",
+    "descricao": "Enxerto de nervo periférico"
+  },
+  {
+    "codigo": "31401260",
+    "descricao": "Biópsia de nervo periférico"
+  },
+  {
+    "codigo": "31401278",
+    "descricao": "Tratamento cirúrgico de tumor de nervo periférico"
+  },
+  {
+    "codigo": "31401286",
+    "descricao": "Tratamento cirúrgico de síndrome do túnel do carpo"
+  },
+  {
+    "codigo": "31401294",
+    "descricao": "Tratamento cirúrgico de compressão de nervo periférico"
+  },
+  {
+    "codigo": "31401308",
+    "descricao": "Tratamento cirúrgico de neuroma"
+  },
+  {
+    "codigo": "31401316",
+    "descricao": "Tratamento cirúrgico de hérnia de disco"
+  },
+  {
+    "codigo": "31401324",
+    "descricao": "Laminectomia"
+  },
+  {
+    "codigo": "31401332",
+    "descricao": "Discectomia"
+  },
+  {
+    "codigo": "31401340",
+    "descricao": "Artrodese da coluna"
+  },
+  {
+    "codigo": "31401359",
+    "descricao": "Tratamento cirúrgico de estenose do canal vertebral"
+  },
+  {
+    "codigo": "31401367",
+    "descricao": "Tratamento cirúrgico de espondilolistese"
+  },
+  {
+    "codigo": "31401375",
+    "descricao": "Tratamento cirúrgico de escoliose"
+  },
+  {
+    "codigo": "31401383",
+    "descricao": "Tratamento cirúrgico de tumor de coluna"
+  },
+  {
+    "codigo": "31401391",
+    "descricao": "Tratamento cirúrgico de infecção de coluna"
+  },
+  {
+    "codigo": "31401405",
+    "descricao": "Tratamento cirúrgico de fratura de coluna"
+  },
+  {
+    "codigo": "31501019",
+    "descricao": "Transplante de rim"
+  },
+  {
+    "codigo": "31501027",
+    "descricao": "Transplante de fígado"
+  },
+  {
+    "codigo": "31501035",
+    "descricao": "Transplante de coração"
+  },
+  {
+    "codigo": "31501043",
+    "descricao": "Transplante de pulmão"
+  },
+  {
+    "codigo": "31501051",
+    "descricao": "Transplante de pâncreas"
+  },
+  {
+    "codigo": "31501060",
+    "descricao": "Transplante de intestino"
+  },
+  {
+    "codigo": "31501078",
+    "descricao": "Transplante de córnea"
+  },
+  {
+    "codigo": "31501086",
+    "descricao": "Transplante de medula óssea"
+  },
+  {
+    "codigo": "31501094",
+    "descricao": "Transplante de pele"
+  },
+  {
+    "codigo": "31501108",
+    "descricao": "Transplante de mão"
+  },
+  {
+    "codigo": "31501116",
+    "descricao": "Transplante de face"
+  },
+  {
+    "codigo": "31501124",
+    "descricao": "Transplante de múltiplos órgãos"
+  },
+  {
+    "codigo": "31501132",
+    "descricao": "Transplante de células tronco"
+  },
+  {
+    "codigo": "31601013",
+    "descricao": "Biópsia de tireoide"
+  },
+  {
+    "codigo": "31601021",
+    "descricao": "Tireoidectomia"
+  },
+  {
+    "codigo": "31601030",
+    "descricao": "Ressecção de cisto tireoglosso"
+  },
+  {
+    "codigo": "31601048",
+    "descricao": "Tireoidectomia parcial"
+  },
+  {
+    "codigo": "31601056",
+    "descricao": "Tireoidectomia total"
+  },
+  {
+    "codigo": "31601064",
+    "descricao": "Linfadenectomia cervical"
+  },
+  {
+    "codigo": "31601072",
+    "descricao": "Biópsia de paratireoide"
+  },
+  {
+    "codigo": "31601080",
+    "descricao": "Paratireoidectomia"
+  },
+  {
+    "codigo": "31601099",
+    "descricao": "Biópsia de glândula adrenal"
+  },
+  {
+    "codigo": "31601102",
+    "descricao": "Adrenalectomia"
+  },
+  {
+    "codigo": "31601110",
+    "descricao": "Biópsia de pâncreas endócrino"
+  },
+  {
+    "codigo": "31601129",
+    "descricao": "Ressecção de tumor de pâncreas endócrino"
+  },
+  {
+    "codigo": "31601137",
+    "descricao": "Biópsia de glândula pituitária"
+  },
+  {
+    "codigo": "31601145",
+    "descricao": "Hipofisectomia"
+  },
+  {
+    "codigo": "31601153",
+    "descricao": "Tratamento cirúrgico de tumor de hipófise"
+  },
+  {
+    "codigo": "31601161",
+    "descricao": "Tratamento cirúrgico de tumor de glândula adrenal"
+  },
+  {
+    "codigo": "31601170",
+    "descricao": "Tratamento cirúrgico de tumor de paratireoide"
+  },
+  {
+    "codigo": "31601188",
+    "descricao": "Tratamento cirúrgico de tumor de tireoide"
+  },
+  {
+    "codigo": "31601196",
+    "descricao": "Tratamento cirúrgico de goiter"
+  },
+  {
+    "codigo": "31601200",
+    "descricao": "Tratamento cirúrgico de bócio mergulhante"
+  },
+  {
+    "codigo": "31701018",
+    "descricao": "Biópsia de baço"
+  },
+  {
+    "codigo": "31701026",
+    "descricao": "Esplenectomia"
+  },
+  {
+    "codigo": "31701034",
+    "descricao": "Biópsia de gânglio linfático"
+  },
+  {
+    "codigo": "31701042",
+    "descricao": "Linfadenectomia"
+  },
+  {
+    "codigo": "31701050",
+    "descricao": "Linfadenectomia cervical"
+  },
+  {
+    "codigo": "31701069",
+    "descricao": "Linfadenectomia axilar"
+  },
+  {
+    "codigo": "31701077",
+    "descricao": "Linfadenectomia inguinal"
+  },
+  {
+    "codigo": "31701085",
+    "descricao": "Linfadenectomia retroperitoneal"
+  },
+  {
+    "codigo": "31701093",
+    "descricao": "Drenagem de abscesso linfático"
+  },
+  {
+    "codigo": "31701107",
+    "descricao": "Linfangiografia"
+  },
+  {
+    "codigo": "31701115",
+    "descricao": "Biopsia de medula óssea"
+  },
+  {
+    "codigo": "31701123",
+    "descricao": "Aspiração de medula óssea"
+  },
+  {
+    "codigo": "40101011",
+    "descricao": "Colesterol total"
+  },
+  {
+    "codigo": "40101020",
+    "descricao": "Colesterol HDL"
+  },
+  {
+    "codigo": "40101038",
+    "descricao": "Colesterol LDL"
+  },
+  {
+    "codigo": "40101046",
+    "descricao": "Colesterol VLDL"
+  },
+  {
+    "codigo": "40101054",
+    "descricao": "Triglicerídeos"
+  },
+  {
+    "codigo": "40101062",
+    "descricao": "Glicose"
+  },
+  {
+    "codigo": "40101070",
+    "descricao": "Glicose pós-prandial"
+  },
+  {
+    "codigo": "40101089",
+    "descricao": "Teste de tolerância à glicose"
+  },
+  {
+    "codigo": "40101097",
+    "descricao": "Hemoglobina glicada"
+  },
+  {
+    "codigo": "40101100",
+    "descricao": "Insulina"
+  },
+  {
+    "codigo": "40101119",
+    "descricao": "Peptídeo C"
+  },
+  {
+    "codigo": "40101127",
+    "descricao": "Uréia"
+  },
+  {
+    "codigo": "40101135",
+    "descricao": "Creatinina"
+  },
+  {
+    "codigo": "40101143",
+    "descricao": "Ácido úrico"
+  },
+  {
+    "codigo": "40101151",
+    "descricao": "Proteínas totais"
+  },
+  {
+    "codigo": "40101160",
+    "descricao": "Albumina"
+  },
+  {
+    "codigo": "40101178",
+    "descricao": "Bilirrubinas totais e frações"
+  },
+  {
+    "codigo": "40101186",
+    "descricao": "TGO (AST)"
+  },
+  {
+    "codigo": "40101194",
+    "descricao": "TGP (ALT)"
+  },
+  {
+    "codigo": "40101208",
+    "descricao": "Fosfatase alcalina"
+  },
+  {
+    "codigo": "40101216",
+    "descricao": "Gama GT"
+  },
+  {
+    "codigo": "40101224",
+    "descricao": "Ldh"
+  },
+  {
+    "codigo": "40101232",
+    "descricao": "Amilase"
+  },
+  {
+    "codigo": "40101240",
+    "descricao": "Lipase"
+  },
+  {
+    "codigo": "40101259",
+    "descricao": "Sódio"
+  },
+  {
+    "codigo": "40101267",
+    "descricao": "Potássio"
+  },
+  {
+    "codigo": "40101275",
+    "descricao": "Cálcio"
+  },
+  {
+    "codigo": "40101283",
+    "descricao": "Fósforo"
+  },
+  {
+    "codigo": "40101291",
+    "descricao": "Magnésio"
+  },
+  {
+    "codigo": "40101305",
+    "descricao": "Cloro"
+  },
+  {
+    "codigo": "40101313",
+    "descricao": "Gasometria arterial"
+  },
+  {
+    "codigo": "40101321",
+    "descricao": "Gasometria venosa"
+  },
+  {
+    "codigo": "40101330",
+    "descricao": "Proteínas na urina (24h)"
+  },
+  {
+    "codigo": "40101348",
+    "descricao": "Microalbuminúria"
+  },
+  {
+    "codigo": "40101356",
+    "descricao": "Creatinina na urina (24h)"
+  },
+  {
+    "codigo": "40101364",
+    "descricao": "Uréia na urina (24h)"
+  },
+  {
+    "codigo": "40101372",
+    "descricao": "Cálcio na urina (24h)"
+  },
+  {
+    "codigo": "40101380",
+    "descricao": "Fósforo na urina (24h)"
+  },
+  {
+    "codigo": "40101399",
+    "descricao": "Sódio na urina (24h)"
+  },
+  {
+    "codigo": "40101402",
+    "descricao": "Potássio na urina (24h)"
+  },
+  {
+    "codigo": "40101410",
+    "descricao": "Cloro na urina (24h)"
+  },
+  {
+    "codigo": "40101429",
+    "descricao": "Exame de urina tipo I"
+  },
+  {
+    "codigo": "40101437",
+    "descricao": "Cultura de urina (urocultura)"
+  },
+  {
+    "codigo": "40101445",
+    "descricao": "Exame parasitológico de fezes"
+  },
+  {
+    "codigo": "40101453",
+    "descricao": "Cultura de fezes (coprocultura)"
+  },
+  {
+    "codigo": "40101461",
+    "descricao": "Sangue oculto nas fezes"
+  },
+  {
+    "codigo": "40101470",
+    "descricao": "Pesquisa de giardia"
+  },
+  {
+    "codigo": "40101488",
+    "descricao": "Pesquisa de ameba"
+  },
+  {
+    "codigo": "40101496",
+    "descricao": "Pesquisa de rotavírus"
+  },
+  {
+    "codigo": "40101500",
+    "descricao": "Pesquisa de adenovírus"
+  },
+  {
+    "codigo": "40101518",
+    "descricao": "Bacterioscopia de fezes"
+  },
+  {
+    "codigo": "40101526",
+    "descricao": "Pesquisa de C. difficile"
+  },
+  {
+    "codigo": "40101534",
+    "descricao": "Pesquisa de Helicobacter pylori"
+  },
+  {
+    "codigo": "40101542",
+    "descricao": "Pesquisa de sangue oculto quantitativo"
+  },
+  {
+    "codigo": "40101550",
+    "descricao": "Coprofuncional"
+  },
+  {
+    "codigo": "40201016",
+    "descricao": "Hemograma completo"
+  },
+  {
+    "codigo": "40201024",
+    "descricao": "Contagem de plaquetas"
+  },
+  {
+    "codigo": "40201032",
+    "descricao": "Contagem de reticulócitos"
+  },
+  {
+    "codigo": "40201040",
+    "descricao": "Coagulograma"
+  },
+  {
+    "codigo": "40201059",
+    "descricao": "Tempo de protrombina (TP)"
+  },
+  {
+    "codigo": "40201067",
+    "descricao": "Tempo de tromboplastina parcial ativada (TTPA)"
+  },
+  {
+    "codigo": "40201075",
+    "descricao": "Fibrinogênio"
+  },
+  {
+    "codigo": "40201083",
+    "descricao": "Dímero D"
+  },
+  {
+    "codigo": "40201091",
+    "descricao": "Fator de von Willebrand"
+  },
+  {
+    "codigo": "40201105",
+    "descricao": "Pesquisa de células LE"
+  },
+  {
+    "codigo": "40201113",
+    "descricao": "Teste de Coombs direto"
+  },
+  {
+    "codigo": "40201121",
+    "descricao": "Teste de Coombs indireto"
+  },
+  {
+    "codigo": "40201130",
+    "descricao": "Eletroforese de hemoglobina"
+  },
+  {
+    "codigo": "40201148",
+    "descricao": "Ferro sérico"
+  },
+  {
+    "codigo": "40201156",
+    "descricao": "Ferritina"
+  },
+  {
+    "codigo": "40201164",
+    "descricao": "Transferrina"
+  },
+  {
+    "codigo": "40201172",
+    "descricao": "Capacidade de ligação de ferro"
+  },
+  {
+    "codigo": "40201180",
+    "descricao": "Vitamina B12"
+  },
+  {
+    "codigo": "40201199",
+    "descricao": "Ácido fólico"
+  },
+  {
+    "codigo": "40201202",
+    "descricao": "Biópsia de medula óssea"
+  },
+  {
+    "codigo": "40201210",
+    "descricao": "Aspiração de medula óssea"
+  },
+  {
+    "codigo": "40201229",
+    "descricao": "Mielograma"
+  },
+  {
+    "codigo": "40301010",
+    "descricao": "Bacterioscopia"
+  },
+  {
+    "codigo": "40301028",
+    "descricao": "Cultura de germes"
+  },
+  {
+    "codigo": "40301036",
+    "descricao": "Antibiograma"
+  },
+  {
+    "codigo": "40301044",
+    "descricao": "Hemocultura"
+  },
+  {
+    "codigo": "40301052",
+    "descricao": "Urocultura"
+  },
+  {
+    "codigo": "40301060",
+    "descricao": "Coprocultura"
+  },
+  {
+    "codigo": "40301079",
+    "descricao": "Cultura de líquor"
+  },
+  {
+    "codigo": "40301087",
+    "descricao": "Cultura de escarro"
+  },
+  {
+    "codigo": "40301095",
+    "descricao": "Cultura de material de ferida"
+  },
+  {
+    "codigo": "40301109",
+    "descricao": "Cultura de secreção"
+  },
+  {
+    "codigo": "40301117",
+    "descricao": "Pesquisa de bacilo de Koch (BK)"
+  },
+  {
+    "codigo": "40301125",
+    "descricao": "Pesquisa de fungos"
+  },
+  {
+    "codigo": "40301133",
+    "descricao": "Cultura para fungos"
+  },
+  {
+    "codigo": "40301141",
+    "descricao": "Pesquisa de parasitas"
+  },
+  {
+    "codigo": "40301150",
+    "descricao": "Pesquisa de vírus"
+  },
+  {
+    "codigo": "40301168",
+    "descricao": "Sorologia para HIV"
+  },
+  {
+    "codigo": "40301176",
+    "descricao": "Sorologia para hepatites"
+  },
+  {
+    "codigo": "40301184",
+    "descricao": "Sorologia para sífilis"
+  },
+  {
+    "codigo": "40301192",
+    "descricao": "Sorologia para toxoplasmose"
+  },
+  {
+    "codigo": "40301206",
+    "descricao": "Sorologia para rubéola"
+  },
+  {
+    "codigo": "40301214",
+    "descricao": "Sorologia para citomegalovírus"
+  },
+  {
+    "codigo": "40301222",
+    "descricao": "Sorologia para mononucleose"
+  },
+  {
+    "codigo": "40301230",
+    "descricao": "Sorologia para herpes"
+  },
+  {
+    "codigo": "40301249",
+    "descricao": "Sorologia para dengue"
+  },
+  {
+    "codigo": "40301257",
+    "descricao": "Sorologia para chikungunya"
+  },
+  {
+    "codigo": "40301265",
+    "descricao": "Sorologia para zika"
+  },
+  {
+    "codigo": "40301273",
+    "descricao": "Sorologia para febre amarela"
+  },
+  {
+    "codigo": "40301281",
+    "descricao": "Sorologia para leptospirose"
+  },
+  {
+    "codigo": "40301290",
+    "descricao": "Sorologia para chagas"
+  },
+  {
+    "codigo": "40301303",
+    "descricao": "Sorologia para malária"
+  },
+  {
+    "codigo": "40401015",
+    "descricao": "Tipagem sanguínea ABO e Rh"
+  },
+  {
+    "codigo": "40401023",
+    "descricao": "Teste de compatibilidade (prova cruzada)"
+  },
+  {
+    "codigo": "40401031",
+    "descricao": "Anticorpos irregulares"
+  },
+  {
+    "codigo": "40401040",
+    "descricao": "Coombs direto"
+  },
+  {
+    "codigo": "40401058",
+    "descricao": "Coombs indireto"
+  },
+  {
+    "codigo": "40401066",
+    "descricao": "Pesquisa de anticorpos irregulares"
+  },
+  {
+    "codigo": "40401074",
+    "descricao": "Fenotipagem Rh"
+  },
+  {
+    "codigo": "40401082",
+    "descricao": "Fenotipagem Kell"
+  },
+  {
+    "codigo": "40401090",
+    "descricao": "Fenotipagem Duffy"
+  },
+  {
+    "codigo": "40401104",
+    "descricao": "Fenotipagem Kidd"
+  },
+  {
+    "codigo": "40402010",
+    "descricao": "Preparação de concentrado de hemácias"
+  },
+  {
+    "codigo": "40402029",
+    "descricao": "Preparação de concentrado de plaquetas"
+  },
+  {
+    "codigo": "40402037",
+    "descricao": "Preparação de plasma fresco congelado"
+  },
+  {
+    "codigo": "40402045",
+    "descricao": "Preparação de crioprecipitado"
+  },
+  {
+    "codigo": "40402053",
+    "descricao": "Irradiação de hemácias"
+  },
+  {
+    "codigo": "40402061",
+    "descricao": "Lavagem de hemácias"
+  },
+  {
+    "codigo": "40402070",
+    "descricao": "Remoção de leucócitos (leucorredução)"
+  },
+  {
+    "codigo": "40403014",
+    "descricao": "Transfusão de concentrado de hemácias"
+  },
+  {
+    "codigo": "40403022",
+    "descricao": "Transfusão de concentrado de plaquetas"
+  },
+  {
+    "codigo": "40403030",
+    "descricao": "Transfusão de plasma fresco congelado"
+  },
+  {
+    "codigo": "40403049",
+    "descricao": "Transfusão de crioprecipitado"
+  },
+  {
+    "codigo": "40403057",
+    "descricao": "Transfusão de granulócitos"
+  },
+  {
+    "codigo": "40403065",
+    "descricao": "Transfusão intrauterina"
+  },
+  {
+    "codigo": "40501019",
+    "descricao": "Cariótipo com banda"
+  },
+  {
+    "codigo": "40501027",
+    "descricao": "Cariótipo de alta resolução"
+  },
+  {
+    "codigo": "40501035",
+    "descricao": "Cariótipo de medula óssea"
+  },
+  {
+    "codigo": "40501043",
+    "descricao": "Cariótipo de tumor sólido"
+  },
+  {
+    "codigo": "40501051",
+    "descricao": "Cariótipo de líquor"
+  },
+  {
+    "codigo": "40501060",
+    "descricao": "Cariótipo de sangue periférico"
+  },
+  {
+    "codigo": "40501078",
+    "descricao": "Cariótipo com FISH"
+  },
+  {
+    "codigo": "40501086",
+    "descricao": "Cariótipo para pesquisa de microdeleção"
+  },
+  {
+    "codigo": "40501094",
+    "descricao": "Cariótipo para pesquisa de microduplicação"
+  },
+  {
+    "codigo": "40502013",
+    "descricao": "Análise de DNA por PCR"
+  },
+  {
+    "codigo": "40502021",
+    "descricao": "Análise de DNA por sequenciamento"
+  },
+  {
+    "codigo": "40502030",
+    "descricao": "Análise de DNA por hibridização in situ"
+  },
+  {
+    "codigo": "40502048",
+    "descricao": "Análise de DNA por Southern blot"
+  },
+  {
+    "codigo": "40502056",
+    "descricao": "Análise de DNA por Western blot"
+  },
+  {
+    "codigo": "40502064",
+    "descricao": "Análise de DNA por Northern blot"
+  },
+  {
+    "codigo": "40502072",
+    "descricao": "Análise de DNA por microarray"
+  },
+  {
+    "codigo": "40502080",
+    "descricao": "Análise de DNA por MLPA"
+  },
+  {
+    "codigo": "40502099",
+    "descricao": "Análise de DNA por RT-PCR"
+  },
+  {
+    "codigo": "40503018",
+    "descricao": "Pesquisa de mutação"
+  },
+  {
+    "codigo": "40503026",
+    "descricao": "Pesquisa de polimorfismo"
+  },
+  {
+    "codigo": "40503034",
+    "descricao": "Pesquisa de rearranjo gênico"
+  },
+  {
+    "codigo": "40503042",
+    "descricao": "Pesquisa de fusão gênica"
+  },
+  {
+    "codigo": "40503050",
+    "descricao": "Teste de paternidade"
+  },
+  {
+    "codigo": "40503069",
+    "descricao": "Pesquisa de DNA fetal no sangue materno"
+  },
+  {
+    "codigo": "40601014",
+    "descricao": "Teste de paternidade"
+  },
+  {
+    "codigo": "40601022",
+    "descricao": "Análise de DNA"
+  },
+  {
+    "codigo": "40601030",
+    "descricao": "Cariótipo"
+  },
+  {
+    "codigo": "40601049",
+    "descricao": "Eletroforese de hemoglobina"
+  },
+  {
+    "codigo": "40701019",
+    "descricao": "Eletrocardiograma de repouso"
+  },
+  {
+    "codigo": "40701027",
+    "descricao": "Teste ergométrico"
+  },
+  {
+    "codigo": "40701035",
+    "descricao": "Holter de 24 horas"
+  },
+  {
+    "codigo": "40701043",
+    "descricao": "Monitorização ambulatorial da pressão arterial (MAPA)"
+  },
+  {
+    "codigo": "40701051",
+    "descricao": "Ecocardiograma transtorácico"
+  },
+  {
+    "codigo": "40701060",
+    "descricao": "Ecocardiograma transesofágico"
+  },
+  {
+    "codigo": "40701078",
+    "descricao": "Ultrassonografia vascular (Doppler)"
+  },
+  {
+    "codigo": "40701086",
+    "descricao": "Ultrassonografia de carótidas e vertebrais"
+  },
+  {
+    "codigo": "40701094",
+    "descricao": "Ultrassonografia de artérias renais"
+  },
+  {
+    "codigo": "40701108",
+    "descricao": "Ultrassonografia de aorta abdominal"
+  },
+  {
+    "codigo": "40701116",
+    "descricao": "Ultrassonografia de artérias dos membros inferiores"
+  },
+  {
+    "codigo": "40701124",
+    "descricao": "Ultrassonografia de veias dos membros inferiores"
+  },
+  {
+    "codigo": "40701132",
+    "descricao": "Ultrassonografia de artérias dos membros superiores"
+  },
+  {
+    "codigo": "40701140",
+    "descricao": "Ultrassonografia de veias dos membros superiores"
+  },
+  {
+    "codigo": "40701159",
+    "descricao": "Tomografia computadorizada de tórax"
+  },
+  {
+    "codigo": "40701167",
+    "descricao": "Ressonância magnética de tórax"
+  },
+  {
+    "codigo": "40701175",
+    "descricao": "Angiotomografia de tórax"
+  },
+  {
+    "codigo": "40701183",
+    "descricao": "Angioressonância de tórax"
+  },
+  {
+    "codigo": "40701191",
+    "descricao": "Cintilografia de perfusão miocárdica"
+  },
+  {
+    "codigo": "40701205",
+    "descricao": "Cintilografia de viabilidade miocárdica"
+  },
+  {
+    "codigo": "40701213",
+    "descricao": "Cintilografia de captação de iodo"
+  },
+  {
+    "codigo": "40701221",
+    "descricao": "Cintilografia de tireoide"
+  },
+  {
+    "codigo": "40701230",
+    "descricao": "Cintilografia de paratireoides"
+  },
+  {
+    "codigo": "40701248",
+    "descricao": "Cintilografia renal"
+  },
+  {
+    "codigo": "40701256",
+    "descricao": "Cintilografia óssea"
+  },
+  {
+    "codigo": "40701264",
+    "descricao": "Cintilografia de corpo inteiro"
+  },
+  {
+    "codigo": "40701272",
+    "descricao": "PET-CT"
+  },
+  {
+    "codigo": "40701280",
+    "descricao": "PET-CT com FDG"
+  },
+  {
+    "codigo": "40701299",
+    "descricao": "PET-CT com PSMA"
+  },
+  {
+    "codigo": "40701302",
+    "descricao": "PET-CT com colina"
+  },
+  {
+    "codigo": "40702014",
+    "descricao": "Manometria esofágica"
+  },
+  {
+    "codigo": "40702022",
+    "descricao": "pHmetria esofágica"
+  },
+  {
+    "codigo": "40702030",
+    "descricao": "Colonoscopia"
+  },
+  {
+    "codigo": "40702049",
+    "descricao": "Endoscopia digestiva alta"
+  },
+  {
+    "codigo": "40702057",
+    "descricao": "Retossigmoidoscopia"
+  },
+  {
+    "codigo": "40702065",
+    "descricao": "Enteroscopia"
+  },
+  {
+    "codigo": "40702073",
+    "descricao": "Endoscopia com cápsula"
+  },
+  {
+    "codigo": "40702081",
+    "descricao": "Colangiopancreatografia endoscópica retrógrada (CPRE)"
+  },
+  {
+    "codigo": "40702090",
+    "descricao": "Manometria anorretal"
+  },
+  {
+    "codigo": "40702103",
+    "descricao": "Ultrassonografia abdominal"
+  },
+  {
+    "codigo": "40702111",
+    "descricao": "Ultrassonografia de fígado"
+  },
+  {
+    "codigo": "40702120",
+    "descricao": "Ultrassonografia de vesícula biliar"
+  },
+  {
+    "codigo": "40702138",
+    "descricao": "Ultrassonografia de pâncreas"
+  },
+  {
+    "codigo": "40702146",
+    "descricao": "Ultrassonografia de baço"
+  },
+  {
+    "codigo": "40702154",
+    "descricao": "Ultrassonografia de rins e bexiga"
+  },
+  {
+    "codigo": "40702162",
+    "descricao": "Tomografia computadorizada de abdômen"
+  },
+  {
+    "codigo": "40702170",
+    "descricao": "Ressonância magnética de abdômen"
+  },
+  {
+    "codigo": "40702189",
+    "descricao": "Angiotomografia de abdômen"
+  },
+  {
+    "codigo": "40702197",
+    "descricao": "Angioressonância de abdômen"
+  },
+  {
+    "codigo": "40702200",
+    "descricao": "Cintilografia de fígado e baço"
+  },
+  {
+    "codigo": "40702219",
+    "descricao": "Cintilografia das vias biliares"
+  },
+  {
+    "codigo": "40702227",
+    "descricao": "Cintilografia para pesquisa de sangramento digestivo"
+  },
+  {
+    "codigo": "40702235",
+    "descricao": "PET-CT abdominal"
+  },
+  {
+    "codigo": "40703010",
+    "descricao": "Ultrassonografia de tireoide"
+  },
+  {
+    "codigo": "40703029",
+    "descricao": "Ultrassonografia de paratireoides"
+  },
+  {
+    "codigo": "40703037",
+    "descricao": "Ultrassonografia de glândulas adrenais"
+  },
+  {
+    "codigo": "40703045",
+    "descricao": "Tomografia computadorizada de glândulas adrenais"
+  },
+  {
+    "codigo": "40703053",
+    "descricao": "Ressonância magnética de glândulas adrenais"
+  },
+  {
+    "codigo": "40703061",
+    "descricao": "Cintilografia de tireoide"
+  },
+  {
+    "codigo": "40703070",
+    "descricao": "Cintilografia de paratireoides"
+  },
+  {
+    "codigo": "40703088",
+    "descricao": "Cintilografia de glândulas adrenais"
+  },
+  {
+    "codigo": "40703096",
+    "descricao": "PET-CT para tumores neuroendócrinos"
+  },
+  {
+    "codigo": "40704015",
+    "descricao": "Ultrassonografia de rins e bexiga"
+  },
+  {
+    "codigo": "40704023",
+    "descricao": "Ultrassonografia de próstata"
+  },
+  {
+    "codigo": "40704031",
+    "descricao": "Ultrassonografia de testículos"
+  },
+  {
+    "codigo": "40704040",
+    "descricao": "Ultrassonografia de pênis"
+  },
+  {
+    "codigo": "40704058",
+    "descricao": "Ultrassonografia de útero e ovários"
+  },
+  {
+    "codigo": "40704066",
+    "descricao": "Tomografia computadorizada de pelve"
+  },
+  {
+    "codigo": "40704074",
+    "descricao": "Ressonância magnética de pelve"
+  },
+  {
+    "codigo": "40704082",
+    "descricao": "Cintilografia renal"
+  },
+  {
+    "codigo": "40704090",
+    "descricao": "Cintilografia testicular"
+  },
+  {
+    "codigo": "40704104",
+    "descricao": "Cintilografia de glândulas salivares"
+  },
+  {
+    "codigo": "40704112",
+    "descricao": "PET-CT para câncer de próstata"
+  },
+  {
+    "codigo": "40705010",
+    "descricao": "Cintilografia de medula óssea"
+  },
+  {
+    "codigo": "40705029",
+    "descricao": "Cintilografia para pesquisa de sangramento gastrointestinal"
+  },
+  {
+    "codigo": "40705037",
+    "descricao": "PET-CT para linfoma"
+  },
+  {
+    "codigo": "40706014",
+    "descricao": "Densitometria óssea"
+  },
+  {
+    "codigo": "40706022",
+    "descricao": "Ultrassonografia de articulações"
+  },
+  {
+    "codigo": "40706030",
+    "descricao": "Tomografia computadorizada de articulações"
+  },
+  {
+    "codigo": "40706049",
+    "descricao": "Ressonância magnética de articulações"
+  },
+  {
+    "codigo": "40706057",
+    "descricao": "Cintilografia óssea"
+  },
+  {
+    "codigo": "40706065",
+    "descricao": "PET-CT para tumores ósseos"
+  },
+  {
+    "codigo": "40707019",
+    "descricao": "Eletroencefalograma"
+  },
+  {
+    "codigo": "40707027",
+    "descricao": "Eletroneuromiografia"
+  },
+  {
+    "codigo": "40707035",
+    "descricao": "Polissonografia"
+  },
+  {
+    "codigo": "40707043",
+    "descricao": "Tomografia computadorizada de crânio"
+  },
+  {
+    "codigo": "40707051",
+    "descricao": "Ressonância magnética de crânio"
+  },
+  {
+    "codigo": "40707060",
+    "descricao": "Angiotomografia de crânio"
+  },
+  {
+    "codigo": "40707078",
+    "descricao": "Angioressonância de crânio"
+  },
+  {
+    "codigo": "40707086",
+    "descricao": "Cintilografia cerebral"
+  },
+  {
+    "codigo": "40707094",
+    "descricao": "PET-CT cerebral"
+  },
+  {
+    "codigo": "40708013",
+    "descricao": "Biópsia de linfonodo"
+  },
+  {
+    "codigo": "40708021",
+    "descricao": "Linfadenectomia"
+  },
+  {
+    "codigo": "40708030",
+    "descricao": "Exérese de tumor"
+  },
+  {
+    "codigo": "40708048",
+    "descricao": "Dissecção de pescoço"
+  },
+  {
+    "codigo": "40708056",
+    "descricao": "Mastectomia"
+  },
+  {
+    "codigo": "40708064",
+    "descricao": "Reconstrução mamária"
+  },
+  {
+    "codigo": "40708072",
+    "descricao": "Linfadenectomia axilar"
+  },
+  {
+    "codigo": "40708080",
+    "descricao": "Linfadenectomia inguinal"
+  },
+  {
+    "codigo": "40708099",
+    "descricao": "Quimioterapia"
+  },
+  {
+    "codigo": "40708102",
+    "descricao": "Radioterapia"
+  },
+  {
+    "codigo": "40708110",
+    "descricao": "Braquiterapia"
+  },
+  {
+    "codigo": "40708129",
+    "descricao": "Radioterapia com IMRT"
+  },
+  {
+    "codigo": "40708137",
+    "descricao": "Radioterapia com VMAT"
+  },
+  {
+    "codigo": "40708145",
+    "descricao": "Radioterapia com IGRT"
+  },
+  {
+    "codigo": "40708153",
+    "descricao": "Radioterapia esterotática"
+  },
+  {
+    "codigo": "40708161",
+    "descricao": "Cintilografia para pesquisa de metástase"
+  },
+  {
+    "codigo": "40708170",
+    "descricao": "PET-CT para oncologia"
+  },
+  {
+    "codigo": "40709018",
+    "descricao": "Broncoscopia"
+  },
+  {
+    "codigo": "40709026",
+    "descricao": "Mediastinoscopia"
+  },
+  {
+    "codigo": "40709034",
+    "descricao": "Laringoscopia"
+  },
+  {
+    "codigo": "40709042",
+    "descricao": "Prova de função pulmonar"
+  },
+  {
+    "codigo": "40709050",
+    "descricao": "Espirometria"
+  },
+  {
+    "codigo": "40709069",
+    "descricao": "Tomografia computadorizada de tórax"
+  },
+  {
+    "codigo": "40709077",
+    "descricao": "Ressonância magnética de tórax"
+  },
+  {
+    "codigo": "40709085",
+    "descricao": "Cintilografia de perfusão pulmonar"
+  },
+  {
+    "codigo": "40709093",
+    "descricao": "Cintilografia de ventilação pulmonar"
+  },
+  {
+    "codigo": "40709107",
+    "descricao": "PET-CT para câncer de pulmão"
+  },
+  {
+    "codigo": "40710017",
+    "descricao": "Radioterapia"
+  },
+  {
+    "codigo": "40710025",
+    "descricao": "Quimioterapia"
+  },
+  {
+    "codigo": "40710033",
+    "descricao": "Braquiterapia"
+  },
+  {
+    "codigo": "40710041",
+    "descricao": "Radioterapia com IMRT"
+  },
+  {
+    "codigo": "40710050",
+    "descricao": "Radioterapia com VMAT"
+  },
+  {
+    "codigo": "40710068",
+    "descricao": "Radioterapia com IGRT"
+  },
+  {
+    "codigo": "40710076",
+    "descricao": "Radioterapia estereotática"
+  },
+  {
+    "codigo": "40710084",
+    "descricao": "Transplante de medula óssea"
+  },
+  {
+    "codigo": "40710092",
+    "descricao": "Aférese de células tronco"
+  },
+  {
+    "codigo": "40710106",
+    "descricao": "Diálise"
+  },
+  {
+    "codigo": "40710114",
+    "descricao": "Plasmaférese"
+  },
+  {
+    "codigo": "40710122",
+    "descricao": "Fotoférese"
+  },
+  {
+    "codigo": "40710130",
+    "descricao": "Hemoperfusão"
+  },
+  {
+    "codigo": "40711011",
+    "descricao": "Biopsia de gânglio linfático"
+  },
+  {
+    "codigo": "40711020",
+    "descricao": "Linfadenectomia"
+  },
+  {
+    "codigo": "40711038",
+    "descricao": "Linfadenectomia cervical"
+  },
+  {
+    "codigo": "40711046",
+    "descricao": "Linfadenectomia axilar"
+  },
+  {
+    "codigo": "40711054",
+    "descricao": "Linfadenectomia inguinal"
+  },
+  {
+    "codigo": "40711062",
+    "descricao": "Punção de tireoide por agulha fina"
+  },
+  {
+    "codigo": "40711070",
+    "descricao": "Biopsia de tireoide por agulha grossa"
+  },
+  {
+    "codigo": "40711089",
+    "descricao": "Tratamento de câncer de tireoide com iodo radioativo"
+  },
+  {
+    "codigo": "40711097",
+    "descricao": "Cintilografia de tireoide com iodo radioativo"
+  },
+  {
+    "codigo": "40801018",
+    "descricao": "Radiografia de crânio"
+  },
+  {
+    "codigo": "40801026",
+    "descricao": "Radiografia de face"
+  },
+  {
+    "codigo": "40801034",
+    "descricao": "Radiografia de seios da face"
+  },
+  {
+    "codigo": "40801042",
+    "descricao": "Radiografia de sela túrcica"
+  },
+  {
+    "codigo": "40801050",
+    "descricao": "Radiografia de mandíbula"
+  },
+  {
+    "codigo": "40801069",
+    "descricao": "Radiografia de ossos nasais"
+  },
+  {
+    "codigo": "40801077",
+    "descricao": "Radiografia de órbita"
+  },
+  {
+    "codigo": "40801085",
+    "descricao": "Tomografia computadorizada de crânio"
+  },
+  {
+    "codigo": "40801093",
+    "descricao": "Tomografia computadorizada de face"
+  },
+  {
+    "codigo": "40801107",
+    "descricao": "Tomografia computadorizada de seios da face"
+  },
+  {
+    "codigo": "40801115",
+    "descricao": "Tomografia computadorizada de mandíbula"
+  },
+  {
+    "codigo": "40801123",
+    "descricao": "Tomografia computadorizada de órbita"
+  },
+  {
+    "codigo": "40801131",
+    "descricao": "Ressonância magnética de crânio"
+  },
+  {
+    "codigo": "40801140",
+    "descricao": "Ressonância magnética de face"
+  },
+  {
+    "codigo": "40801158",
+    "descricao": "Ressonância magnética de seios da face"
+  },
+  {
+    "codigo": "40801166",
+    "descricao": "Ressonância magnética de mandíbula"
+  },
+  {
+    "codigo": "40801174",
+    "descricao": "Ressonância magnética de órbita"
+  },
+  {
+    "codigo": "40801182",
+    "descricao": "Angiotomografia de crânio"
+  },
+  {
+    "codigo": "40801190",
+    "descricao": "Angioressonância de crânio"
+  },
+  {
+    "codigo": "40802014",
+    "descricao": "Radiografia de coluna cervical"
+  },
+  {
+    "codigo": "40802022",
+    "descricao": "Radiografia de coluna torácica"
+  },
+  {
+    "codigo": "40802030",
+    "descricao": "Radiografia de coluna lombar"
+  },
+  {
+    "codigo": "40802049",
+    "descricao": "Radiografia de coluna sacral"
+  },
+  {
+    "codigo": "40802057",
+    "descricao": "Tomografia computadorizada de coluna"
+  },
+  {
+    "codigo": "40802065",
+    "descricao": "Ressonância magnética de coluna"
+  },
+  {
+    "codigo": "40802073",
+    "descricao": "Mielografia"
+  },
+  {
+    "codigo": "40802081",
+    "descricao": "Discografia"
+  },
+  {
+    "codigo": "40803019",
+    "descricao": "Radiografia de tórax"
+  },
+  {
+    "codigo": "40803027",
+    "descricao": "Radiografia de clavícula"
+  },
+  {
+    "codigo": "40803035",
+    "descricao": "Radiografia de ombro"
+  },
+  {
+    "codigo": "40803043",
+    "descricao": "Radiografia de braço"
+  },
+  {
+    "codigo": "40803051",
+    "descricao": "Radiografia de cotovelo"
+  },
+  {
+    "codigo": "40803060",
+    "descricao": "Radiografia de antebraço"
+  },
+  {
+    "codigo": "40803078",
+    "descricao": "Radiografia de punho"
+  },
+  {
+    "codigo": "40803086",
+    "descricao": "Radiografia de mão"
+  },
+  {
+    "codigo": "40803094",
+    "descricao": "Tomografia computadorizada de tórax"
+  },
+  {
+    "codigo": "40803108",
+    "descricao": "Tomografia computadorizada de clavícula"
+  },
+  {
+    "codigo": "40803116",
+    "descricao": "Tomografia computadorizada de ombro"
+  },
+  {
+    "codigo": "40803124",
+    "descricao": "Tomografia computadorizada de cotovelo"
+  },
+  {
+    "codigo": "40803132",
+    "descricao": "Ressonância magnética de tórax"
+  },
+  {
+    "codigo": "40803140",
+    "descricao": "Ressonância magnética de ombro"
+  },
+  {
+    "codigo": "40803159",
+    "descricao": "Ressonância magnética de cotovelo"
+  },
+  {
+    "codigo": "40804013",
+    "descricao": "Radiografia de pelve"
+  },
+  {
+    "codigo": "40804021",
+    "descricao": "Radiografia de quadril"
+  },
+  {
+    "codigo": "40804030",
+    "descricao": "Radiografia de fêmur"
+  },
+  {
+    "codigo": "40804048",
+    "descricao": "Radiografia de joelho"
+  },
+  {
+    "codigo": "40804056",
+    "descricao": "Radiografia de perna"
+  },
+  {
+    "codigo": "40804064",
+    "descricao": "Radiografia de tornozelo"
+  },
+  {
+    "codigo": "40804072",
+    "descricao": "Radiografia de pé"
+  },
+  {
+    "codigo": "40804080",
+    "descricao": "Tomografia computadorizada de pelve"
+  },
+  {
+    "codigo": "40804099",
+    "descricao": "Tomografia computadorizada de quadril"
+  },
+  {
+    "codigo": "40804102",
+    "descricao": "Tomografia computadorizada de joelho"
+  },
+  {
+    "codigo": "40804110",
+    "descricao": "Tomografia computadorizada de tornozelo"
+  },
+  {
+    "codigo": "40804129",
+    "descricao": "Ressonância magnética de pelve"
+  },
+  {
+    "codigo": "40804137",
+    "descricao": "Ressonância magnética de quadril"
+  },
+  {
+    "codigo": "40804145",
+    "descricao": "Ressonância magnética de joelho"
+  },
+  {
+    "codigo": "40804153",
+    "descricao": "Ressonância magnética de tornozelo"
+  },
+  {
+    "codigo": "40805016",
+    "descricao": "Artrografia"
+  },
+  {
+    "codigo": "40805024",
+    "descricao": "Mielografia"
+  },
+  {
+    "codigo": "40805032",
+    "descricao": "Tomografia computadorizada por emissão de pósitrons (PET-CT)"
+  },
+  {
+    "codigo": "40805040",
+    "descricao": "Cintilografia óssea"
+  },
+  {
+    "codigo": "40805059",
+    "descricao": "Densitometria óssea"
+  },
+  {
+    "codigo": "40805067",
+    "descricao": "Radiografia de corpo inteiro"
+  },
+  {
+    "codigo": "40805075",
+    "descricao": "Tomografia computadorizada de corpo inteiro"
+  },
+  {
+    "codigo": "40805083",
+    "descricao": "Ressonância magnética de corpo inteiro"
+  },
+  {
+    "codigo": "40901012",
+    "descricao": "Ultrassonografia obstétrica"
+  },
+  {
+    "codigo": "40901020",
+    "descricao": "Ultrassonografia morfológica fetal"
+  },
+  {
+    "codigo": "40901039",
+    "descricao": "Dopplerfluxometria obstétrica"
+  },
+  {
+    "codigo": "40901047",
+    "descricao": "Cardiotocografia"
+  },
+  {
+    "codigo": "40901055",
+    "descricao": "Perfil biofísico fetal"
+  },
+  {
+    "codigo": "40901063",
+    "descricao": "Amniocentese"
+  },
+  {
+    "codigo": "40901071",
+    "descricao": "Cordocentese"
+  },
+  {
+    "codigo": "40901080",
+    "descricao": "Biópsia de vilo corial"
+  },
+  {
+    "codigo": "40901098",
+    "descricao": "Ultrassonografia de mama"
+  },
+  {
+    "codigo": "40901101",
+    "descricao": "Mamografia"
+  },
+  {
+    "codigo": "40901110",
+    "descricao": "Mamografia digital"
+  },
+  {
+    "codigo": "40901128",
+    "descricao": "Ultrassonografia transvaginal"
+  },
+  {
+    "codigo": "40901136",
+    "descricao": "Ultrassonografia pélvica"
+  },
+  {
+    "codigo": "40901144",
+    "descricao": "Histeroscopia diagnóstica"
+  },
+  {
+    "codigo": "40901152",
+    "descricao": "Histeroscopia cirúrgica"
+  },
+  {
+    "codigo": "40901160",
+    "descricao": "Colposcopia"
+  },
+  {
+    "codigo": "40901179",
+    "descricao": "Vulvoscopia"
+  },
+  {
+    "codigo": "40901187",
+    "descricao": "Punção de ovário"
+  },
+  {
+    "codigo": "40901195",
+    "descricao": "Biópsia de ovário"
+  },
+  {
+    "codigo": "40901209",
+    "descricao": "Biópsia de endométrio"
+  },
+  {
+    "codigo": "40901217",
+    "descricao": "Biópsia de colo uterino"
+  },
+  {
+    "codigo": "40901225",
+    "descricao": "Biópsia de vulva"
+  },
+  {
+    "codigo": "40901233",
+    "descricao": "Biópsia de vagina"
+  },
+  {
+    "codigo": "40901241",
+    "descricao": "Punção aspirativa de mama"
+  },
+  {
+    "codigo": "40901250",
+    "descricao": "Core biópsia de mama"
+  },
+  {
+    "codigo": "40901268",
+    "descricao": "Biópsia de mama guiada por ultrassom"
+  },
+  {
+    "codigo": "40901276",
+    "descricao": "Biópsia de mama guiada por mamografia"
+  },
+  {
+    "codigo": "40901284",
+    "descricao": "Biópsia de mama guiada por ressonância magnética"
+  },
+  {
+    "codigo": "40901292",
+    "descricao": "Histerossalpingografia"
+  },
+  {
+    "codigo": "40901306",
+    "descricao": "Tomografia computadorizada de pelve"
+  },
+  {
+    "codigo": "40901314",
+    "descricao": "Ressonância magnética de pelve"
+  },
+  {
+    "codigo": "41001017",
+    "descricao": "Tomografia computadorizada de tórax"
+  },
+  {
+    "codigo": "41001025",
+    "descricao": "Tomografia computadorizada de abdômen"
+  },
+  {
+    "codigo": "41001033",
+    "descricao": "Tomografia computadorizada de pelve"
+  },
+  {
+    "codigo": "41001041",
+    "descricao": "Tomografia computadorizada de crânio"
+  },
+  {
+    "codigo": "41001050",
+    "descricao": "Tomografia computadorizada de coluna"
+  },
+  {
+    "codigo": "41001068",
+    "descricao": "Tomografia computadorizada de membros"
+  },
+  {
+    "codigo": "41001076",
+    "descricao": "Tomografia computadorizada de articulações"
+  },
+  {
+    "codigo": "41001084",
+    "descricao": "Tomografia computadorizada de seios da face"
+  },
+  {
+    "codigo": "41001092",
+    "descricao": "Tomografia computadorizada de órbita"
+  },
+  {
+    "codigo": "41001106",
+    "descricao": "Tomografia computadorizada de mandíbula"
+  },
+  {
+    "codigo": "41001114",
+    "descricao": "Tomografia computadorizada de face"
+  },
+  {
+    "codigo": "41001122",
+    "descricao": "Angiotomografia de tórax"
+  },
+  {
+    "codigo": "41001130",
+    "descricao": "Angiotomografia de abdômen"
+  },
+  {
+    "codigo": "41001149",
+    "descricao": "Angiotomografia de pelve"
+  },
+  {
+    "codigo": "41001157",
+    "descricao": "Angiotomografia de crânio"
+  },
+  {
+    "codigo": "41001165",
+    "descricao": "Angiotomografia de coluna"
+  },
+  {
+    "codigo": "41001173",
+    "descricao": "Angiotomografia de membros"
+  },
+  {
+    "codigo": "41001181",
+    "descricao": "Angiotomografia de articulações"
+  },
+  {
+    "codigo": "41101011",
+    "descricao": "Ressonância magnética de tórax"
+  },
+  {
+    "codigo": "41101020",
+    "descricao": "Ressonância magnética de abdômen"
+  },
+  {
+    "codigo": "41101038",
+    "descricao": "Ressonância magnética de pelve"
+  },
+  {
+    "codigo": "41101046",
+    "descricao": "Ressonância magnética de crânio"
+  },
+  {
+    "codigo": "41101054",
+    "descricao": "Ressonância magnética de coluna"
+  },
+  {
+    "codigo": "41101062",
+    "descricao": "Ressonância magnética de membros"
+  },
+  {
+    "codigo": "41101070",
+    "descricao": "Ressonância magnética de articulações"
+  },
+  {
+    "codigo": "41101089",
+    "descricao": "Ressonância magnética de mama"
+  },
+  {
+    "codigo": "41101097",
+    "descricao": "Ressonância magnética de próstata"
+  },
+  {
+    "codigo": "41101100",
+    "descricao": "Ressonância magnética de tireoide"
+  },
+  {
+    "codigo": "41101119",
+    "descricao": "Ressonância magnética de glândulas adrenais"
+  },
+  {
+    "codigo": "41101127",
+    "descricao": "Angioressonância de tórax"
+  },
+  {
+    "codigo": "41101135",
+    "descricao": "Angioressonância de abdômen"
+  },
+  {
+    "codigo": "41101143",
+    "descricao": "Angioressonância de pelve"
+  },
+  {
+    "codigo": "41101151",
+    "descricao": "Angioressonância de crânio"
+  },
+  {
+    "codigo": "41101160",
+    "descricao": "Angioressonância de coluna"
+  },
+  {
+    "codigo": "41101178",
+    "descricao": "Angioressonância de membros"
+  },
+  {
+    "codigo": "41101186",
+    "descricao": "Ressonância magnética cardíaca"
+  },
+  {
+    "codigo": "41101194",
+    "descricao": "Ressonância magnética para estudo de perfusão"
+  },
+  {
+    "codigo": "41201016",
+    "descricao": "Ultrassonografia abdominal"
+  },
+  {
+    "codigo": "41201024",
+    "descricao": "Ultrassonografia de abdômen superior"
+  },
+  {
+    "codigo": "41201032",
+    "descricao": "Ultrassonografia de abdômen total"
+  },
+  {
+    "codigo": "41201040",
+    "descricao": "Ultrassonografia de fígado"
+  },
+  {
+    "codigo": "41201059",
+    "descricao": "Ultrassonografia de vias biliares"
+  },
+  {
+    "codigo": "41201067",
+    "descricao": "Ultrassonografia de vesícula biliar"
+  },
+  {
+    "codigo": "41201075",
+    "descricao": "Ultrassonografia de pâncreas"
+  },
+  {
+    "codigo": "41201083",
+    "descricao": "Ultrassonografia de baço"
+  },
+  {
+    "codigo": "41201091",
+    "descricao": "Ultrassonografia de rins e bexiga"
+  },
+  {
+    "codigo": "41201105",
+    "descricao": "Ultrassonografia de próstata"
+  },
+  {
+    "codigo": "41201113",
+    "descricao": "Ultrassonografia de testículos"
+  },
+  {
+    "codigo": "41201121",
+    "descricao": "Ultrassonografia de útero e ovários"
+  },
+  {
+    "codigo": "41201130",
+    "descricao": "Ultrassonografia de mama"
+  },
+  {
+    "codigo": "41201148",
+    "descricao": "Ultrassonografia de tireoide"
+  },
+  {
+    "codigo": "41201156",
+    "descricao": "Ultrassonografia de paratireoides"
+  },
+  {
+    "codigo": "41201164",
+    "descricao": "Ultrassonografia de glândulas adrenais"
+  },
+  {
+    "codigo": "41201172",
+    "descricao": "Ultrassonografia de pescoço"
+  },
+  {
+    "codigo": "41201180",
+    "descricao": "Ultrassonografia de parede abdominal"
+  },
+  {
+    "codigo": "41201199",
+    "descricao": "Ultrassonografia de articulações"
+  },
+  {
+    "codigo": "41201202",
+    "descricao": "Ultrassonografia de ombro"
+  },
+  {
+    "codigo": "41201210",
+    "descricao": "Ultrassonografia de joelho"
+  },
+  {
+    "codigo": "41201229",
+    "descricao": "Ultrassonografia de quadril"
+  },
+  {
+    "codigo": "41201237",
+    "descricao": "Ultrassonografia de tornozelo"
+  },
+  {
+    "codigo": "41201245",
+    "descricao": "Ultrassonografia de cotovelo"
+  },
+  {
+    "codigo": "41201253",
+    "descricao": "Ultrassonografia de punho"
+  },
+  {
+    "codigo": "41201261",
+    "descricao": "Ultrassonografia de mão"
+  },
+  {
+    "codigo": "41201270",
+    "descricao": "Ultrassonografia de pé"
+  },
+  {
+    "codigo": "41201288",
+    "descricao": "Ultrassonografia de carótidas"
+  },
+  {
+    "codigo": "41201296",
+    "descricao": "Ultrassonografia de veias dos membros inferiores"
+  },
+  {
+    "codigo": "41201300",
+    "descricao": "Ultrassonografia de artérias dos membros inferiores"
+  },
+  {
+    "codigo": "41201318",
+    "descricao": "Ultrassonografia de veias dos membros superiores"
+  },
+  {
+    "codigo": "41201326",
+    "descricao": "Ultrassonografia de artérias dos membros superiores"
+  },
+  {
+    "codigo": "41201334",
+    "descricao": "Ultrassonografia de aorta"
+  },
+  {
+    "codigo": "41201342",
+    "descricao": "Ultrassonografia de veia cava"
+  },
+  {
+    "codigo": "41201350",
+    "descricao": "Ultrassonografia de artérias renais"
+  },
+  {
+    "codigo": "41201369",
+    "descricao": "Ultrassonografia de artérias ilíacas"
+  },
+  {
+    "codigo": "41201377",
+    "descricao": "Ultrassonografia de veias ilíacas"
+  },
+  {
+    "codigo": "41201385",
+    "descricao": "Ultrassonografia de veia porta"
+  },
+  {
+    "codigo": "41201393",
+    "descricao": "Ultrassonografia obstétrica"
+  },
+  {
+    "codigo": "41201407",
+    "descricao": "Ultrassonografia morfológica fetal"
+  },
+  {
+    "codigo": "41201415",
+    "descricao": "Dopplerfluxometria obstétrica"
+  },
+  {
+    "codigo": "41201423",
+    "descricao": "Ultrassonografia transvaginal"
+  },
+  {
+    "codigo": "41201431",
+    "descricao": "Ultrassonografia endorretal de próstata"
+  },
+  {
+    "codigo": "41201440",
+    "descricao": "Ultrassonografia endoscópica digestiva"
+  },
+  {
+    "codigo": "41301010",
+    "descricao": "Mamografia"
+  },
+  {
+    "codigo": "41301029",
+    "descricao": "Mamografia digital"
+  },
+  {
+    "codigo": "41301037",
+    "descricao": "Mamografia com magnificação"
+  },
+  {
+    "codigo": "41301045",
+    "descricao": "Mamografia com compressão"
+  },
+  {
+    "codigo": "41301053",
+    "descricao": "Mamografia de rotina"
+  },
+  {
+    "codigo": "41301061",
+    "descricao": "Mamografia unilateral"
+  },
+  {
+    "codigo": "41301070",
+    "descricao": "Mamografia bilateral"
+  },
+  {
+    "codigo": "41301088",
+    "descricao": "Ultrassonografia de mama"
+  },
+  {
+    "codigo": "41301096",
+    "descricao": "Ressonância magnética de mama"
+  },
+  {
+    "codigo": "41301100",
+    "descricao": "Punção aspirativa de mama"
+  },
+  {
+    "codigo": "41301118",
+    "descricao": "Core biópsia de mama"
+  },
+  {
+    "codigo": "41301126",
+    "descricao": "Biópsia de mama guiada por ultrassom"
+  },
+  {
+    "codigo": "41301134",
+    "descricao": "Biópsia de mama guiada por mamografia"
+  },
+  {
+    "codigo": "41301142",
+    "descricao": "Biópsia de mama guiada por ressonância magnética"
+  },
+  {
+    "codigo": "41301150",
+    "descricao": "Localização pré-cirúrgica de lesão mamária"
+  },
+  {
+    "codigo": "41401015",
+    "descricao": "Radiografia de tórax"
+  },
+  {
+    "codigo": "41401023",
+    "descricao": "Radiografia de abdômen"
+  },
+  {
+    "codigo": "41401031",
+    "descricao": "Radiografia de pelve"
+  },
+  {
+    "codigo": "41401040",
+    "descricao": "Radiografia de crânio"
+  },
+  {
+    "codigo": "41401058",
+    "descricao": "Radiografia de coluna"
+  },
+  {
+    "codigo": "41401066",
+    "descricao": "Radiografia de membros"
+  },
+  {
+    "codigo": "41401074",
+    "descricao": "Radiografia de articulações"
+  },
+  {
+    "codigo": "41401082",
+    "descricao": "Radiografia de tórax (PA e Perfil)"
+  },
+  {
+    "codigo": "41401090",
+    "descricao": "Radiografia de abdômen (AP e perfil)"
+  },
+  {
+    "codigo": "41401104",
+    "descricao": "Radiografia de tórax em decúbito lateral"
+  },
+  {
+    "codigo": "41401112",
+    "descricao": "Radiografia de tórax em PA"
+  },
+  {
+    "codigo": "41401120",
+    "descricao": "Radiografia de tórax em perfil"
+  },
+  {
+    "codigo": "41401139",
+    "descricao": "Radiografia de tórax oblíqua"
+  },
+  {
+    "codigo": "41401147",
+    "descricao": "Radiografia de tórax com radioscopia"
+  },
+  {
+    "codigo": "41401155",
+    "descricao": "Radiografia de tórax com inspiração e expiração"
+  },
+  {
+    "codigo": "41401163",
+    "descricao": "Radiografia de tórax de rotina"
+  },
+  {
+    "codigo": "41401171",
+    "descricao": "Radiografia de tórax com contraste"
+  },
+  {
+    "codigo": "41401180",
+    "descricao": "Radiografia de tórax com densitometria"
+  },
+  {
+    "codigo": "41501014",
+    "descricao": "Investigação ultrassônica sem registro gráfico (qualquer área)"
+  },
+  {
+    "codigo": "41501022",
+    "descricao": "Medida de índice de artelhos com registro gráfico"
+  },
+  {
+    "codigo": "41501030",
+    "descricao": "Medida de pressão hepática"
+  },
+  {
+    "codigo": "41501049",
+    "descricao": "Medida de pressão segmentar (nos quatro segmentos)"
+  },
+  {
+    "codigo": "41501057",
+    "descricao": "Paquimetria ultrassônica - monocular"
+  },
+  {
+    "codigo": "41501065",
+    "descricao": "Perfusão pulmonar por tomografia por emissão de pósitrons (PET)"
+  },
+  {
+    "codigo": "41501073",
+    "descricao": "Perfusão pulmonar por tomografia por emissão de pósitrons (PET)"
+  },
+  {
+    "codigo": "41501081",
+    "descricao": "Radioimunoterapia"
+  },
+  {
+    "codigo": "41501090",
+    "descricao": "Radioimunoterapia"
+  },
+  {
+    "codigo": "41501103",
+    "descricao": "Radioterapia estereotática fracionada - por sessão"
+  },
+  {
+    "codigo": "41501111",
+    "descricao": "Radioterapia estereotática fracionada - por campo"
+  },
+  {
+    "codigo": "41501120",
+    "descricao": "Radioterapia esterotática intracraniana - por sessão"
+  },
+  {
+    "codigo": "41501138",
+    "descricao": "Radioterapia estereotática intracraniana - por campo"
+  },
+  {
+    "codigo": "41501146",
+    "descricao": "Radioterapia esterotática extracraniana - por sessão"
+  },
+  {
+    "codigo": "41501154",
+    "descricao": "Radioterapia estereotática extracraniana - por campo"
+  },
+  {
+    "codigo": "41501162",
+    "descricao": "Tomografia por emissão de pósitrons (PET) - por órgão ou sistema"
+  },
+  {
+    "codigo": "41501170",
+    "descricao": "Tomografia por emissão de pósitrons (PET) - corpo total"
+  },
+  {
+    "codigo": "41501189",
+    "descricao": "Tomografia por emissão de pósitrons (PET) - com FDG"
+  },
+  {
+    "codigo": "41501197",
+    "descricao": "Tomografia por emissão de pósitrons (PET) - com PSMA"
+  },
+  {
+    "codigo": "41501200",
+    "descricao": "Tomografia por emissão de pósitrons (PET) - com colina"
   }
 ]
